@@ -1,0 +1,10 @@
+language: java
+addons:
+  apt:
+    packages:
+      ant 
+script: 
+  - ant validate
+  - ant validateTesting
+notifications:
+  slack: impactbox:1mP6IZhybLYA8INhM9QUMMfh
