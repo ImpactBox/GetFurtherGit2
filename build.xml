@@ -31,10 +31,6 @@
      </sf:deploy>
    </target>
 
-  <target name="validateTesting">
-    <sf:deploy username="${testing.username}" password="${testing.password}" serverurl="${sand.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="/src" rollbackOnError="true" checkOnly="true" pollWaitMillis="10000" testLevel="RunLocalTests">
-     </sf:deploy>
-   </target>
 
   <target name="quickDeploy">
 	   <sf:deployRecentValidation username="${prod.username}" password="${prod.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" recentValidationId="${sf.recentValidationId}"/>
