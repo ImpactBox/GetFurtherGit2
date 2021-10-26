@@ -78,7 +78,7 @@
         <members>Tutor</members>
         <name>SharingSet</name>
   </types>
-  <type>
+  <types>
         <name>ContentAsset</name>
         <members>*</members>
     </types>
