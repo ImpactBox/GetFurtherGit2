@@ -10,7 +10,7 @@
     <property name="sf.serverurl"           value="https://login.salesforce.com"/>
     <property name="sand.serverurl"           value="https://test.salesforce.com"/>
     <property name="sf.maxPoll"             value="200"/>
-    <property name="sf.recentValidationId"  value="0Af3z00000BzddyCAB"/> 
+    <property name="sf.recentValidationId"  value=""/> 
     <property environment="env"/>
 
     <taskdef resource="com/salesforce/antlib.xml" uri="antlib:com.salesforce">
