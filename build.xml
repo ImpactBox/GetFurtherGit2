@@ -2,9 +2,9 @@
 
     <property environment="env"/>
     <property name="dev.username"          value="support+gf@impactbox.co.uk.developib"/>
-    <property name="dev.password"          value="gRSTw7ZmOPf43Lv1870ISpchjbU9CVsXC6xhn"/>
+    <property name="dev.password"          value="4u6wHcXx385jm2n2HxgzKjQU1zpfNoudO207"/>
     <property name="prod.username"          value="support+gf@impactbox.co.uk"/>
-    <property name="prod.password"          value="tzwQ1KaRh3JxSQjWIiYJ1bpeNimyhOAq5qKdL"/>
+    <property name="prod.password"          value="4u6wHcXx385jVkkic725K9DXWWfxJQJhmO9b"/>
     <property name="sf.serverurl"           value="https://login.salesforce.com"/>
     <property name="sand.serverurl"           value="https://test.salesforce.com"/>
     <property name="sf.maxPoll"             value="200"/>
