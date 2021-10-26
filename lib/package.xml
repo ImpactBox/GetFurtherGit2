@@ -29,8 +29,6 @@
     </types>
     <types>
         <members>IB_Register</members>
-        <members>IB_EditableRelatedList</members>
-        <members>IB_EditableRelatedListField</members>
         <name>AuraDefinitionBundle</name>
     </types>    
     <types>
