@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Records survey data from the student in order to track progress over time</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Certain_I_understand_difficult_material__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>I&apos;m certain I can understand the most difficult material presented in this course.</inlineHelpText>
+        <label>Certain I understand difficult material</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DateSubmitted__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Submitted</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Engagement__c</fullName>
+        <externalId>false</externalId>
+        <label>Engagement</label>
+        <referenceTo>Engagement__c</referenceTo>
+        <relationshipLabel>Surveys</relationshipLabel>
+        <relationshipName>Surveys</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Excellent_job_on_assignments__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>I&apos;m confident I can do an excellent job on the assignments and tests in this course.</inlineHelpText>
+        <label>Excellent job on assignments</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Expect_to_do_well__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>I expect to do well in this course.</inlineHelpText>
+        <label>Expect to do well</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Feel_helpless__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>To what extent do you agree with the following statements? [I feel helpless when doing tasks in English lessons.] [I feel helpless when doing a mathematics problem.]</inlineHelpText>
+        <label>Feel helpless</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Get_good_grades_in_subject__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>To what extent do you agree with the following statements? [I get good grades in English.]
+ [I get good grades in mathematics.]</inlineHelpText>
+        <label>Get good grades in subject</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>How_confident_do_you_feel_1__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>How confident do you feel about having to do the following tasks: [Figuring out difficult words by yourself when you read.] [Calculating how much cheaper a TV would be after a 30% discount.]</inlineHelpText>
+        <label>How confident do you feel 1</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>How_confident_do_you_feel_2__c</fullName>
+        <externalId>false</externalId>
+        <label>How confident do you feel 2</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>How_confident_do_you_feel_3__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>How confident do you feel about having to do the following tasks: [Summarising a one-page extract from a novel, after you finish reading it.] [Calculating how many square metres of tiles you need to cover a floor.]</inlineHelpText>
+        <label>How confident do you feel 3</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>How_confident_do_you_feel_4__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>How confident do you feel about having to do the following tasks: [Explaining how a writer has structured a text to interest you as a reader.] [Solving an equation ]</inlineHelpText>
+        <label>How confident do you feel 4</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>How_confident_do_you_feel_5__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>How confident do you feel about having to do the following tasks: [Writing a creative description from a picture.] [Calculating the quantity of ingredients you would need for 30 cakes, if you are given a recipe for 12 cakes.]</inlineHelpText>
+        <label>How confident do you feel 5</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>I_can_master_skills__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>I&apos;m certain I can master the skills being taught in this course.</inlineHelpText>
+        <label>I can master skills</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>I_get_very_tense_homework__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Thinking about studying English: to what extent do you agree with the following statements? [I get very tense when I have to do English homework.][I get very tense when I have to do mathematics homework.]</inlineHelpText>
+        <label>I get very tense - homework</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>I_often_worry__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Thinking about studying English: to what extent do you agree with the following statements? [I often worry that it will be difficult for me in English classes.] [I often worry that it will be difficult for me in mathematics classes.]</inlineHelpText>
+        <label>I often worry - classes</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ill_receive_excellent_grade__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>I believe I will receive an excellent grade in this English course.
+I believe I will receive an excellent grade in this maths course.</inlineHelpText>
+        <label>I&apos;ll receive excellent grade</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Just_not_good_at_subject__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>To what extent do you agree with the following statements? [I am just not good at English.] [I am just not good at mathematics.]</inlineHelpText>
+        <label>Just not good at subject</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Learn_subject_quicklu__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>To what extent do you agree with the following statements? [I learn quickly in English lessons.] [I learn mathematics quickly.]</inlineHelpText>
+        <label>Learn subject quicklu</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Nervous_doing_tasks_in_lesson__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>To what extent do you agree with the following statements? [I get very nervous doing tasks in English lessons.] [I get very nervous doing mathematics problems.]</inlineHelpText>
+        <label>Nervous doing tasks in lesson</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>One_of_my_best_subjects__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>To what extent do you agree with the following statements? [I believe that English is one of my best subjects.] [I believe that mathematics is one of my best subjects.]</inlineHelpText>
+        <label>One of my best subjects</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Think_Ill_do_well__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Considering the difficulty of this course, and my skills, I think I will do well in this course.</inlineHelpText>
+        <label>Think I&apos;ll do well</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Understand_basic_concepts__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>I&apos;m confident I can understand the basic concepts taught in this course.</inlineHelpText>
+        <label>Understand basic concepts</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Understand_complex_material__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>I&apos;m confident I can understand the most complex material presented by the tutor in this course.</inlineHelpText>
+        <label>Understand complex material</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Understand_difficult_work__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>To what extent do you agree with the following statements? [In my English class, I understand even the most difficult work.] [In my mathematics class, I understand even the most difficult work.]</inlineHelpText>
+        <label>Understand difficult work</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Worry_about_poor_grades__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>To what extent do you agree with the following statements? [I worry that I will get poor grades in English.] [I worry that I will get poor grades in mathematics.]</inlineHelpText>
+        <label>Worry about poor grades</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Survey</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>Surv-{0000}</displayFormat>
+        <label>Survey Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Surveys</pluralLabel>
+    <recordTypes>
+        <fullName>Student_Survey</fullName>
+        <active>true</active>
+        <description>To record initial student survey data</description>
+        <label>Student Survey</label>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

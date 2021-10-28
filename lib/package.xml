@@ -60,7 +60,6 @@
     <members>GetFurther_Session__c-GetFurther Session Layout</members>
     <members>Programme__c-Cohort Layout</members>
     <members>Attendee__c-Attendee Layout</members>
-    <members>User-Tutor Profile Layout</members>
     <members>Survey__c-Student Survey Layout</members>
 </types>
 <types>

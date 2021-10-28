@@ -8,7 +8,7 @@
     <property name="sf.serverurl"           value="https://login.salesforce.com"/>
     <property name="sand.serverurl"           value="https://test.salesforce.com"/>
     <property name="sf.maxPoll"             value="200"/>
-    <property name="sf.recentValidationId"  value=""/> 
+    <property name="sf.recentValidationId"  value="0Af3M00000IEDGDSA5"/> 
     <property environment="env"/>
 
     <taskdef resource="com/salesforce/antlib.xml" uri="antlib:com.salesforce">
@@ -31,11 +31,19 @@
      </sf:deploy>
    </target>
 
+   <target name="validateSandbox">
+     <sf:deploy username="${dev.username}" password="${dev.password}" serverurl="${sand.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="/src" rollbackOnError="true" checkOnly="false" pollWaitMillis="10000" testLevel="RunSpecifiedTests">        
+     <runTest>IB_RegisterServerControllerTest</runTest>
+     </sf:deploy>
+   </target>
 
   <target name="quickDeploy">
 	   <sf:deployRecentValidation username="${prod.username}" password="${prod.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" recentValidationId="${sf.recentValidationId}"/>
     </target>
 
+<target name="quickDeploySandbox">
+     <sf:deployRecentValidation username="${dev.username}" password="${dev.password}" serverurl="${sand.serverurl}" maxPoll="${sf.maxPoll}" recentValidationId="${sf.recentValidationId}"/>
+    </target>
 
   <target name="quickDeployTesting">
      <sf:deployRecentValidation username="${testing.username}" password="${testing.password}" serverurl="${sand.serverurl}" maxPoll="${sf.maxPoll}" recentValidationId="${sf.recentValidationId}"/>
@@ -43,6 +51,10 @@
 
   <target name="deployTesting">
      <sf:deploy username="${testing.username}" password="${testing.password}" serverurl="${sand.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="/src" rollbackOnError="true" checkOnly="false" testLevel="NoTestRun"/>
+    </target>
+
+    <target name="deploySandbox">
+     <sf:deploy username="${dev.username}" password="${dev.password}" serverurl="${sand.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="/src" rollbackOnError="true" checkOnly="false" testLevel="NoTestRun"/>
     </target>
 
    <target name="test">
