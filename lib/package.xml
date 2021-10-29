@@ -42,6 +42,7 @@
         <members>Create_Engagements_and_Attendances</members>
         <members>Create_GetFurther_Sessions</members>
         <members>Tutor_Register_Reminder_Email_Schedule</members>
+        <members>Student_Submission_Conversion_Flow</members>
     </types>
     <types>
         <name>ReportType</name>

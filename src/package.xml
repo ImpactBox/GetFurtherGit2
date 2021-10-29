@@ -48,6 +48,7 @@
         <members>Create_Engagements_and_Attendances</members>
         <members>Create_GetFurther_Sessions</members>
         <members>Engagement_Naming_Convention</members>
+        <members>Student_Submission_Conversion_Flow</members>
         <members>Tutor_Register_Reminder_Email_Schedule</members>
         <members>Update_Session_Status_based_on_register_completion</members>
         <name>Flow</name>

@@ -16,7 +16,7 @@
     </values>
     <values>
         <field>ChildSOQLClause__c</field>
-        <value xsi:type="xsd:string">RegisterSubmitted__c = null AND DateValue__c &lt;= TODAY AND Tutor__c != null</value>
+        <value xsi:type="xsd:string">RegisterSubmitted__c = null AND DateValue__c &lt;= TODAY AND Tutor__c != null AND Session_Delivered__c != &apos;Cancelled&apos;</value>
     </values>
     <values>
         <field>Description__c</field>
