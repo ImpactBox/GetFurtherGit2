@@ -65,12 +65,22 @@
 </types>
 <types>
         <name>CustomMetadata</name>
-        <members>IB_EditableListSetting.Incomplete_Registers</members>
-        <members>IB_EditableListField.Register_Link</members>
         <members>IB_EditableListField.Campus_Name</members>
+        <members>IB_EditableListField.Campus_Name_Completed</members>
+        <members>IB_EditableListField.Register_Link</members>
+        <members>IB_EditableListField.Register_Submitted</members>
+        <members>IB_EditableListField.Session</members>
         <members>IB_EditableListField.Session_Name</members>
+        <members>IB_EditableListField.Session_Name_Completed</members>
+        <members>IB_EditableListField.Student_Attendances</members>
         <members>IB_EditableListField.Subject</members>
+        <members>IB_EditableListSetting.Completed_Registers</members>
         <members>IB_EditableListField.Tutor_Name</members>
+        <members>IB_EditableListSetting.Incomplete_Registers</members>
+        <members>IB_EditableListSetting.Registers_To_Complete</members>
+        <members>IB_RegisterField.Did_Well</members>
+        <members>IB_RegisterField.Notes</members>
+        <members>IBRegisterSetting.Register</members>
     </types>
     <types>
         <members>Tutor</members>
