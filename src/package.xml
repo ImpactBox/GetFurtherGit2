@@ -39,6 +39,10 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
         <members>Account_Record_Page</members>
         <members>GetFurther_Session_Record_Page</members>
         <members>Group_Record_Page</members>
