@@ -10,7 +10,7 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
-        <members>IMG_4144.asset</members>
+        <members>IMG4115</members>
         <name>ContentAsset</name>
     </types>
     <types>
@@ -64,6 +64,10 @@
         <name>GlobalValueSet</name>
     </types>
     <types>
+        <members>Yes_no_prefernottosay</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
         <members>Account-School Layout</members>
         <members>Attendee__c-Attendee Layout</members>
         <members>GetFurther_Session__c-GetFurther Session Layout</members>
@@ -83,6 +87,10 @@
     <types>
         <members>Tutor</members>
         <name>SharingSet</name>
+    </types>
+    <types>
+        <members>AccountType</members>
+        <name>StandardValueSet</name>
     </types>
     <types>
         <members>FooterIcons</members>

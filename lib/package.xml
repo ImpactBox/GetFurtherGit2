@@ -78,15 +78,25 @@
   </types>
   <types>
         <name>ContentAsset</name>
-        <members>IMG_4144.asset</members>
+        <members>IMG4115</members>
     </types>
    <types>
     <name>CustomApplication</name>
     <members>Get_Further</members>
-</types>
-<types>
-<members>*</members>
-<name>CustomTab</name>
-</types>
+    </types>
+    <types>
+    <members>AccountType</members>
+    <name>StandardValueSet</name>
+    </types>
+
+    <types>
+    <members>Yes_no_prefernottosay</members>
+    <name>GlobalValueSet</name>
+    </types>
+
+    <types>
+    <members>*</members>
+    <name>CustomTab</name>
+    </types>
     <version>50.0</version>
 </Package>
