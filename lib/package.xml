@@ -69,6 +69,17 @@
        <members>Get_Further_Portal1</members>
        <name>ExperienceBundle</name>
        </types>
+    <types>
+        <members>GetFurther_Session__c.Tutor_Register_Reminder_Email_Alert</members>
+        <name>WorkflowAlert</name>
+    </types>    
+    <types>
+        <members>unfiled$public</members>
+        <members>unfiled$public/Register_Session_Reminder_Tutors_1634550726305</members>
+       <members>unfiled$public/ Session_Register_Reminder_Email_Tutors_1634551435993</members>
+        <members>unfiled$public/Session_Register_Reminder_Email_24_Hours_1635706689115</members>
+        <name>EmailTemplate</name>
+    </types>
    <types>
     <name>Layout</name>
     <members>Account-School Layout</members>
