@@ -2967,6 +2967,13 @@
         <recordType>Contact.Student_Record_Type</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Contact-Tutors Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-Tutors Layout</layout>
+        <recordType>Contact.Tutor_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Group__c-Group Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

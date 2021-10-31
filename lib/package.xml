@@ -92,7 +92,7 @@
     <members>Attendee__c-Attendee Layout</members>
     <members>Survey__c-Student Survey Layout</members>
     <members>Contact-Student Layout</members>
-    <members>Contact-Tutor Layout</members>
+    <members>Contact-Tutors Layout</members>
     <members>StudentSubmission__c-Student Submission Layout</members>
     <members>Group__c-Group Layout</members>
     <members>Contact-General Contact Layout</members>
@@ -128,7 +128,7 @@
     <types>
     <name>Dashboard</name>
     <members>ProgrammeDashboards</members>
-    <members>ProgrammeDashboards/Attendance Dashboard</members>
+    <members>ProgrammeDashboards/QFisJsUluPMebaZtZgKIhupNAIkxEM</members>
     </types>
     <types>
         <members>Tutor</members>
