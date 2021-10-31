@@ -20,13 +20,23 @@
                     <booleanValue>false</booleanValue>
                 </rightValue>
             </conditions>
+            <connector>
+                <targetReference>Create_Engagement</targetReference>
+            </connector>
             <label>Found</label>
         </rules>
     </decisions>
+    <description>Converts all collated student date into a Contact, Engagement and Survey record. 
+Subject of study field included in Engagement record creation now.</description>
+    <formulas>
+        <name>IfStudentIDIsBlank</name>
+        <dataType>String</dataType>
+        <expression>IF(ISNULL({!Get_Submission_Details.StudentIDifKnown__c})=TRUE, &apos;NoStudentContactFound&apos;,{!Get_Submission_Details.StudentIDifKnown__c})</expression>
+    </formulas>
     <formulas>
         <name>RelevantContactID</name>
         <dataType>String</dataType>
-        <expression>IF({!Found}=TRUE, {!ExistingContactRecord.Id},{!NewContactID})</expression>
+        <expression>IF(ISNULL({!ExistingContactRecord.Id})=TRUE,{!NewContactID},{!ExistingContactRecord.Id})</expression>
     </formulas>
     <interviewLabel>Student Submission Conversion Flow {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Student Submission Conversion Flow</label>
@@ -64,9 +74,21 @@
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>Group__c</field>
+            <value>
+                <elementReference>Get_Submission_Details.TuitionGroup__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Status__c</field>
             <value>
                 <stringValue>Active</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>SubjectAreaofStudy__c</field>
+            <value>
+                <elementReference>Get_Submission_Details.Contact_Subject__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -87,6 +109,12 @@
         <connector>
             <targetReference>Create_Engagement</targetReference>
         </connector>
+        <inputAssignments>
+            <field>Birthdate</field>
+            <value>
+                <elementReference>Get_Submission_Details.DateofBirth__c</elementReference>
+            </value>
+        </inputAssignments>
         <inputAssignments>
             <field>CommentsorQuestions__c</field>
             <value>
@@ -115,6 +143,12 @@
             <field>Contact_Gender__c</field>
             <value>
                 <elementReference>Get_Submission_Details.Contact_Gender__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Contact_Subject__c</field>
+            <value>
+                <elementReference>Get_Submission_Details.Contact_Subject__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -166,7 +200,7 @@
             </value>
         </inputAssignments>
         <inputAssignments>
-            <field>Grade_Awarded_for_Chosen_Subject__c</field>
+            <field>Grade_Awarded_for_English__c</field>
             <value>
                 <elementReference>Get_Submission_Details.Grade_Awarded_for_Chosen_Subject__c</elementReference>
             </value>
@@ -196,13 +230,19 @@
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>MobilePhone</field>
+            <value>
+                <elementReference>Get_Submission_Details.Mobile__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Next_Steps_After_Course__c</field>
             <value>
                 <elementReference>Get_Submission_Details.Next_Steps_After_Course__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
-            <field>Previous_Attempt_GCSE_in_Subject__c</field>
+            <field>Previous_Attempt_GCSE_in_English__c</field>
             <value>
                 <elementReference>Get_Submission_Details.Previous_Attempt_GCSE_in_Subject__c</elementReference>
             </value>
@@ -223,6 +263,12 @@
             <field>RateEnglishSkillsSpeaking__c</field>
             <value>
                 <elementReference>Get_Submission_Details.RateEnglishSkillsSpeaking__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>RateEnglishSkillsUnderstandSpeech__c</field>
+            <value>
+                <elementReference>Get_Submission_Details.RateEnglishSkillsUnderstandSpeech__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -299,6 +345,12 @@
             <field>Certain_I_understand_difficult_material__c</field>
             <value>
                 <elementReference>Get_Submission_Details.Certain_I_understand_difficult_material__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>DateSubmitted__c</field>
+            <value>
+                <elementReference>Get_Submission_Details.DateSubmitted__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -445,8 +497,8 @@
     <recordLookups>
         <name>Get_Contact_record_type</name>
         <label>Get Contact record type</label>
-        <locationX>588</locationX>
-        <locationY>296</locationY>
+        <locationX>806</locationX>
+        <locationY>136</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Lookup_Contact</targetReference>
@@ -494,8 +546,8 @@
     <recordLookups>
         <name>Lookup_Contact</name>
         <label>Lookup Contact</label>
-        <locationX>409</locationX>
-        <locationY>296</locationY>
+        <locationX>807</locationX>
+        <locationY>289</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Was_Contact_Found</targetReference>
@@ -525,6 +577,12 @@
         <locationX>827</locationX>
         <locationY>410</locationY>
         <inputAssignments>
+            <field>Engagement__c</field>
+            <value>
+                <elementReference>Create_Engagement</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Processed__c</field>
             <value>
                 <elementReference>$Flow.CurrentDate</elementReference>
@@ -538,6 +596,7 @@
         <connector>
             <targetReference>Get_Submission_Details</targetReference>
         </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterLogic>and</filterLogic>
         <filters>
             <field>TuitionGroup__c</field>
@@ -554,10 +613,10 @@
             </value>
         </filters>
         <object>StudentSubmission__c</object>
-        <recordTriggerType>Create</recordTriggerType>
+        <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>ExistingContactRecord</name>
         <dataType>SObject</dataType>

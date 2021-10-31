@@ -996,7 +996,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Contact.Grade_Awarded_for_Chosen_Subject__c</field>
+        <field>Contact.GradeAwardedforMaths__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Grade_Awarded_for_English__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1211,7 +1216,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Contact.Previous_Attempt_GCSE_in_Subject__c</field>
+        <field>Contact.PreviousAttemptGCSEinMaths__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Previous_Attempt_GCSE_in_English__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1457,6 +1467,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Status_Reason__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.StudentID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2045,6 +2060,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Engagement__c.SubjectAreaofStudy__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Engagement__c.TotalAbsences__c</field>
         <readable>true</readable>
@@ -2507,6 +2527,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>StudentSubmission__c.Email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>StudentSubmission__c.Engagement__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

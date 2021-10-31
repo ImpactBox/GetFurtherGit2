@@ -6553,9 +6553,19 @@ upcoming events.</inlineHelpText>
         <visibleLines>4</visibleLines>
     </fields>
     <fields>
-        <fullName>Grade_Awarded_for_Chosen_Subject__c</fullName>
+        <fullName>GradeAwardedforMaths__c</fullName>
         <externalId>false</externalId>
-        <label>Grade Awarded for Chosen Subject</label>
+        <label>Grade Awarded for Maths</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grade_Awarded_for_English__c</fullName>
+        <externalId>false</externalId>
+        <label>Grade Awarded for English</label>
         <length>255</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -10014,10 +10024,22 @@ Q8_Score__c</formula>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Previous_Attempt_GCSE_in_Subject__c</fullName>
+        <fullName>PreviousAttemptGCSEinMaths__c</fullName>
         <externalId>false</externalId>
-        <inlineHelpText>Have you previously attempted a GCSE in your chosen subject?</inlineHelpText>
-        <label>Previous Attempt GCSE in Subject?</label>
+        <label>Previous Attempt GCSE in Maths?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Yes_no_prefernottosay</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Previous_Attempt_GCSE_in_English__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Have you previously attempted a GCSE in English?</inlineHelpText>
+        <label>Previous Attempt GCSE in English?</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
@@ -10787,6 +10809,17 @@ Q8_Score__c</formula>
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>StudentID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>Student ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
     </fields>
     <fields>
         <fullName>StudySupporterFirstName__c</fullName>
@@ -17237,7 +17270,22 @@ npo02__Household__r.npo02__TotalOppAmount__c)</formula>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Previous_Attempt_GCSE_in_Subject__c</picklist>
+            <picklist>PreviousAttemptGCSEinMaths__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prefer not to say</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Previous_Attempt_GCSE_in_English__c</picklist>
             <values>
                 <fullName>No</fullName>
                 <default>false</default>
@@ -22563,7 +22611,22 @@ npo02__Household__r.npo02__TotalOppAmount__c)</formula>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Previous_Attempt_GCSE_in_Subject__c</picklist>
+            <picklist>PreviousAttemptGCSEinMaths__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prefer not to say</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Previous_Attempt_GCSE_in_English__c</picklist>
             <values>
                 <fullName>No</fullName>
                 <default>false</default>
@@ -27904,7 +27967,22 @@ npo02__Household__r.npo02__TotalOppAmount__c)</formula>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Previous_Attempt_GCSE_in_Subject__c</picklist>
+            <picklist>PreviousAttemptGCSEinMaths__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prefer not to say</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Previous_Attempt_GCSE_in_English__c</picklist>
             <values>
                 <fullName>No</fullName>
                 <default>false</default>
@@ -33230,7 +33308,22 @@ npo02__Household__r.npo02__TotalOppAmount__c)</formula>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Previous_Attempt_GCSE_in_Subject__c</picklist>
+            <picklist>PreviousAttemptGCSEinMaths__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prefer not to say</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Previous_Attempt_GCSE_in_English__c</picklist>
             <values>
                 <fullName>No</fullName>
                 <default>false</default>

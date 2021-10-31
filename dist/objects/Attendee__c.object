@@ -213,7 +213,7 @@
     <fields>
         <fullName>Notes__c</fullName>
         <externalId>false</externalId>
-        <label>Notes</label>
+        <label>Skills to Practise Further</label>
         <length>8000</length>
         <trackTrending>false</trackTrending>
         <type>LongTextArea</type>
@@ -255,7 +255,7 @@
     <fields>
         <fullName>StudentDidWell__c</fullName>
         <externalId>false</externalId>
-        <label>Student Did Well</label>
+        <label>Demonstrated academic progress</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>TextArea</type>

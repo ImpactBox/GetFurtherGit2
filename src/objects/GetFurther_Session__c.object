@@ -461,7 +461,7 @@
         <label>Total Student Attendances</label>
         <summaryFilterItems>
             <field>Attendee__c.Type__c</field>
-            <operation>notEqual</operation>
+            <operation>equals</operation>
             <value>Student</value>
         </summaryFilterItems>
         <summaryFilterItems>
