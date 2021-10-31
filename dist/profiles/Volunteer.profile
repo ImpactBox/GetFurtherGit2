@@ -2962,6 +2962,10 @@
         <layout>Attendee__c-Attendee Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Contact-General Contact Layout</layout>
+        <recordType>Contact.Standard</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Contact-Student Layout</layout>
         <recordType>Contact.Student_Record_Type</recordType>
     </layoutAssignments>
@@ -3027,6 +3031,11 @@
         <default>false</default>
         <recordType>Account.School</recordType>
         <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contact.Standard</recordType>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>

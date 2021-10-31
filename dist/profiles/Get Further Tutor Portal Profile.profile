@@ -3001,6 +3001,11 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>Contact.Standard</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>Contact.Student_Record_Type</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>

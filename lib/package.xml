@@ -57,7 +57,7 @@
        <members>Exam_Boards</members>
        <members>Poor_Excellent</members>
    </types>
-   types>
+   <types>
        <members>Get Further Portal</members>
        <name>Network</name>
     </types>
@@ -130,9 +130,9 @@
     </types>
     <types>
     <members>AccountType</members>
+    <members>IsCustomerPortal</members>
     <name>StandardValueSet</name>
     </types>
-
     <types>
     <members>Yes_no_prefernottosay</members>
     <name>GlobalValueSet</name>

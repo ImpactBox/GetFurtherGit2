@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>GetFurther_Session_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>GetFurther_Session_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Any_Further_Comments__c</fullName>
+        <description>If you have any further comments you would like to make, please leave them here:</description>
+        <externalId>false</externalId>
+        <label>Any Further Comments?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>AttendancePercentage__c</fullName>
+        <externalId>false</externalId>
+        <formula>TotalStudentAttendances__c /  TotalStudents__c</formula>
+        <inlineHelpText>Percentage attendance of students for this session</inlineHelpText>
+        <label>Attendance Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>CollegeCampusName__c</fullName>
+        <externalId>false</externalId>
+        <formula>Programme__r.College__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>College/Campus Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Curriculum_level__c</fullName>
+        <externalId>false</externalId>
+        <label>Curriculum level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Subject__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Higher</fullName>
+                    <default>false</default>
+                    <label>Higher</label>
+                </value>
+                <value>
+                    <fullName>Lower</fullName>
+                    <default>false</default>
+                    <label>Lower</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Higher</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lower</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DateValue__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATEVALUE( Session_Date__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Date Value</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Programme__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Cohort</label>
+        <referenceTo>Programme__c</referenceTo>
+        <relationshipLabel>Sessions</relationshipLabel>
+        <relationshipName>GetFurther_Sessions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RegisterLink__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;Click Here&quot;</formula>
+        <label>Register Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RegisterSubmitted__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The date the register was completed</inlineHelpText>
+        <label>Register Submitted</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Room_Number_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Room Number/Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SessionLink__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&apos;https://developib-getfurther.cs127.force.com/GetFurther/s/session/&apos;&amp;Id, Name)</formula>
+        <label>Session Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SessionToday__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATEVALUE( Session_Date__c )=TODAY()</formula>
+        <label>SessionToday</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SessionTutorContactID__c</fullName>
+        <externalId>false</externalId>
+        <formula>SessionTutor__r.Contact__c</formula>
+        <label>SessionTutorContactID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SessionTutorName__c</fullName>
+        <externalId>false</externalId>
+        <formula>SessionTutor__r.Contact__r.FirstName</formula>
+        <label>Session Tutor Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SessionTutor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Session Tutor</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>The tutor you select must have an Engagement record linked to the session&apos;s Tuition Group. Please create an Engagement for the tutor first before selecting them as the session tutor.</errorMessage>
+            <filterItems>
+                <field>Engagement__c.Group__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.TuitionGroup__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Engagement__c</referenceTo>
+        <relationshipLabel>Sessions</relationshipLabel>
+        <relationshipName>Sessions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SessionYesterday__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATEVALUE( Session_Date__c ) = (TODAY()-1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SessionYesterday</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Session_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Session Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Session_Delivered__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The current status of the session&apos;s delivery</inlineHelpText>
+        <label>Session Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>true</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Delivered</fullName>
+                    <default>false</default>
+                    <label>Delivered</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Subject__c</fullName>
+        <externalId>false</externalId>
+        <label>Subject</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>English</fullName>
+                    <default>false</default>
+                    <label>English</label>
+                </value>
+                <value>
+                    <fullName>Maths</fullName>
+                    <default>false</default>
+                    <label>Maths</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Term_1_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Programme__r.Term_1_End_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Term 1 End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Term_1_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Programme__r.Term_1_Start_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Term 1 Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Term_2_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Programme__r.Term_2_End_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Term 2 End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Term_2_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Programme__r.Term_2_Start_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Term 2 Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Term_3_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Programme__r.Term_3_End_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Term 3 End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Term_3_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Programme__r.Term_3_Start_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Term 3 Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Term_4_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Programme__r.Term_4_End_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Term 4 End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Term_4_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Programme__r.Term_4_Start_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Term 4 Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>TotalStudentAttendances__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of students marked as &apos;attended&apos; or &apos;late&apos;</inlineHelpText>
+        <label>Total Student Attendances</label>
+        <summaryFilterItems>
+            <field>Attendee__c.Type__c</field>
+            <operation>equals</operation>
+            <value>Student</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Attendee__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Attended, Late</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Attendee__c.GetFurther_Session__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TotalStudents__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Students</label>
+        <summaryFilterItems>
+            <field>Attendee__c.Type__c</field>
+            <operation>equals</operation>
+            <value>Student</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Attendee__c.GetFurther_Session__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TuitionGroup__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The tuition group for which this session is being run</inlineHelpText>
+        <label>Tuition Group</label>
+        <referenceTo>Group__c</referenceTo>
+        <relationshipLabel>Sessions</relationshipLabel>
+        <relationshipName>Sessions</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>TutorEmailPopulated__c</fullName>
+        <externalId>false</externalId>
+        <formula>ISNULL( Tutor__r.Email ) = FALSE</formula>
+        <label>Tutor Email Populated</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tutor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Tutor</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Contact.Type__c</field>
+                <operation>equals</operation>
+                <value>Graduate Tutor</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>GetFurther_Sessions</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Tutorial_Topic__c</fullName>
+        <externalId>false</externalId>
+        <label>Tutorial Topic</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Subject__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Lesson 1 - Retrieval and Inference</fullName>
+                    <default>false</default>
+                    <label>Lesson 1 - Retrieval and Inference</label>
+                </value>
+                <value>
+                    <fullName>Lesson 2 - Inference</fullName>
+                    <default>false</default>
+                    <label>Lesson 2 - Inference</label>
+                </value>
+                <value>
+                    <fullName>Lesson 3 - Using supporting quotations</fullName>
+                    <default>false</default>
+                    <label>Lesson 3 - Using supporting quotations</label>
+                </value>
+                <value>
+                    <fullName>Lesson 4 - Supporting quotations</fullName>
+                    <default>false</default>
+                    <label>Lesson 4 - Supporting quotations</label>
+                </value>
+                <value>
+                    <fullName>Lesson 5 - Sentence structure</fullName>
+                    <default>false</default>
+                    <label>Lesson 5 - Sentence structure</label>
+                </value>
+                <value>
+                    <fullName>Lesson 6 - Sentence structure commas</fullName>
+                    <default>false</default>
+                    <label>Lesson 6 - Sentence structure commas</label>
+                </value>
+                <value>
+                    <fullName>Lesson 7 - 19th century texts</fullName>
+                    <default>false</default>
+                    <label>Lesson 7 - 19th century texts</label>
+                </value>
+                <value>
+                    <fullName>Lesson 8 - Sensory language</fullName>
+                    <default>false</default>
+                    <label>Lesson 8 - Sensory language</label>
+                </value>
+                <value>
+                    <fullName>Lesson 9 - Sensory language 2</fullName>
+                    <default>false</default>
+                    <label>Lesson 9 - Sensory language 2</label>
+                </value>
+                <value>
+                    <fullName>Lesson 10 - Repetition</fullName>
+                    <default>false</default>
+                    <label>Lesson 10 - Repetition</label>
+                </value>
+                <value>
+                    <fullName>Lesson 11 - Structure analysis</fullName>
+                    <default>false</default>
+                    <label>Lesson 11 - Structure analysis</label>
+                </value>
+                <value>
+                    <fullName>Lesson 12 - Figurative language</fullName>
+                    <default>false</default>
+                    <label>Lesson 12 - Figurative language</label>
+                </value>
+                <value>
+                    <fullName>Lesson 13 - Evaluation</fullName>
+                    <default>false</default>
+                    <label>Lesson 13 - Evaluation</label>
+                </value>
+                <value>
+                    <fullName>Lesson 14 - Walkthrough mock exam - Paper 1 Section A</fullName>
+                    <default>false</default>
+                    <label>Lesson 14 - Walkthrough mock exam - Paper 1 Section A</label>
+                </value>
+                <value>
+                    <fullName>Lesson 15 - Setting</fullName>
+                    <default>false</default>
+                    <label>Lesson 15 - Setting</label>
+                </value>
+                <value>
+                    <fullName>Lesson 16 - Character</fullName>
+                    <default>false</default>
+                    <label>Lesson 16 - Character</label>
+                </value>
+                <value>
+                    <fullName>Lesson 17 - Structuring a story</fullName>
+                    <default>false</default>
+                    <label>Lesson 17 - Structuring a story</label>
+                </value>
+                <value>
+                    <fullName>Lesson 18 - Walkthrough mock exam - Paper 1 Section B</fullName>
+                    <default>false</default>
+                    <label>Lesson 18 - Walkthrough mock exam - Paper 1 Section B</label>
+                </value>
+                <value>
+                    <fullName>Lesson 19 - Summary</fullName>
+                    <default>false</default>
+                    <label>Lesson 19 - Summary</label>
+                </value>
+                <value>
+                    <fullName>Lesson 20 - Writer&apos;s attitude</fullName>
+                    <default>false</default>
+                    <label>Lesson 20 - Writer&apos;s attitude</label>
+                </value>
+                <value>
+                    <fullName>Lesson 21 - Comparison</fullName>
+                    <default>false</default>
+                    <label>Lesson 21 - Comparison</label>
+                </value>
+                <value>
+                    <fullName>Lesson 22 - Walkthrough mock exam - Paper 2 Section A</fullName>
+                    <default>false</default>
+                    <label>Lesson 22 - Walkthrough mock exam - Paper 2 Section A</label>
+                </value>
+                <value>
+                    <fullName>Lesson 23 - Transactional writing</fullName>
+                    <default>false</default>
+                    <label>Lesson 23 - Transactional writing</label>
+                </value>
+                <value>
+                    <fullName>Lesson 24 - Transactional writing 2</fullName>
+                    <default>false</default>
+                    <label>Lesson 24 - Transactional writing 2</label>
+                </value>
+                <value>
+                    <fullName>Lesson 25 - Walkthrough mock exam - Paper 2 Section B</fullName>
+                    <default>false</default>
+                    <label>Lesson 25 - Walkthrough mock exam - Paper 2 Section B</label>
+                </value>
+                <value>
+                    <fullName>Lesson 1 - Prime factors</fullName>
+                    <default>false</default>
+                    <label>Lesson 1 - Prime factors</label>
+                </value>
+                <value>
+                    <fullName>Lesson 2 - Highest common factors and lowest common multiples</fullName>
+                    <default>false</default>
+                    <label>Lesson 2 - Highest common factors and lowest common multiples</label>
+                </value>
+                <value>
+                    <fullName>Lesson 3 - Basic fraction skills</fullName>
+                    <default>false</default>
+                    <label>Lesson 3 - Basic fraction skills</label>
+                </value>
+                <value>
+                    <fullName>Lesson 4 - Comparing and ordering fractions</fullName>
+                    <default>false</default>
+                    <label>Lesson 4 - Comparing and ordering fractions</label>
+                </value>
+                <value>
+                    <fullName>Lesson 5 - Negative numbers</fullName>
+                    <default>false</default>
+                    <label>Lesson 5 - Negative numbers</label>
+                </value>
+                <value>
+                    <fullName>Lesson 6 - Converting between fractions, decimals and percentages</fullName>
+                    <default>false</default>
+                    <label>Lesson 6 - Converting between fractions, decimals and percentages</label>
+                </value>
+                <value>
+                    <fullName>Lesson 7 - Ordering fractions decimals and percentages</fullName>
+                    <default>false</default>
+                    <label>Lesson 7 - Ordering fractions decimals and percentages</label>
+                </value>
+                <value>
+                    <fullName>Lesson 8 - Adding and subtracting fractions</fullName>
+                    <default>false</default>
+                    <label>Lesson 8 - Adding and subtracting fractions</label>
+                </value>
+                <value>
+                    <fullName>Lesson 9 - Multiplying and dividing fractions</fullName>
+                    <default>false</default>
+                    <label>Lesson 9 - Multiplying and dividing fractions</label>
+                </value>
+                <value>
+                    <fullName>Lesson 10 - Indices</fullName>
+                    <default>false</default>
+                    <label>Lesson 10 - Indices</label>
+                </value>
+                <value>
+                    <fullName>Lesson 11 - Order of operations</fullName>
+                    <default>false</default>
+                    <label>Lesson 11 - Order of operations</label>
+                </value>
+                <value>
+                    <fullName>Lesson 12 - Substitution</fullName>
+                    <default>false</default>
+                    <label>Lesson 12 - Substitution</label>
+                </value>
+                <value>
+                    <fullName>Lesson 13 - Finding the area of common shapes</fullName>
+                    <default>false</default>
+                    <label>Lesson 13 - Finding the area of common shapes</label>
+                </value>
+                <value>
+                    <fullName>Lesson 14 - Solving one-step and two-step equations</fullName>
+                    <default>false</default>
+                    <label>Lesson 14 - Solving one-step and two-step equations</label>
+                </value>
+                <value>
+                    <fullName>Lesson 15 - Expanding brackets and solving equations with brackets</fullName>
+                    <default>false</default>
+                    <label>Lesson 15 - Expanding brackets and solving equations with brackets</label>
+                </value>
+                <value>
+                    <fullName>Lesson 16 - Solving equations with unknowns on both sides</fullName>
+                    <default>false</default>
+                    <label>Lesson 16 - Solving equations with unknowns on both sides</label>
+                </value>
+                <value>
+                    <fullName>Lesson 17 - Basic percentages</fullName>
+                    <default>false</default>
+                    <label>Lesson 17 - Basic percentages</label>
+                </value>
+                <value>
+                    <fullName>Lesson 18 - Percentage increase and decrease</fullName>
+                    <default>false</default>
+                    <label>Lesson 18 - Percentage increase and decrease</label>
+                </value>
+                <value>
+                    <fullName>Lesson 19 - Percentage change</fullName>
+                    <default>false</default>
+                    <label>Lesson 19 - Percentage change</label>
+                </value>
+                <value>
+                    <fullName>Lesson 20 - Compound and simple interest</fullName>
+                    <default>false</default>
+                    <label>Lesson 20 - Compound and simple interest</label>
+                </value>
+                <value>
+                    <fullName>Lesson 21 - Writing and simlifying a ratio</fullName>
+                    <default>false</default>
+                    <label>Lesson 21 - Writing and simlifying a ratio</label>
+                </value>
+                <value>
+                    <fullName>Lesson 22 - Sharing a ratio</fullName>
+                    <default>false</default>
+                    <label>Lesson 22 - Sharing a ratio</label>
+                </value>
+                <value>
+                    <fullName>Lesson 23 - Problem solving with ratios</fullName>
+                    <default>false</default>
+                    <label>Lesson 23 - Problem solving with ratios</label>
+                </value>
+                <value>
+                    <fullName>Lesson 24 - Finding angles in triangles and quadrilaterals</fullName>
+                    <default>false</default>
+                    <label>Lesson 24 - Finding angles in triangles and quadrilaterals</label>
+                </value>
+                <value>
+                    <fullName>Lesson 25 - Angles in parallel lines</fullName>
+                    <default>false</default>
+                    <label>Lesson 25 - Angles in parallel lines</label>
+                </value>
+                <value>
+                    <fullName>[0]</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>[0]</label>
+                </value>
+                <value>
+                    <fullName>{!Topics[0]}</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>{!Topics[0]}</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 1 - Retrieval and Inference</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 2 - Inference</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 3 - Using supporting quotations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 4 - Supporting quotations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 5 - Sentence structure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 6 - Sentence structure commas</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 7 - 19th century texts</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 8 - Sensory language</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 9 - Sensory language 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 10 - Repetition</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 11 - Structure analysis</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 12 - Figurative language</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 13 - Evaluation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 14 - Walkthrough mock exam - Paper 1 Section A</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 15 - Setting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 16 - Character</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 17 - Structuring a story</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 18 - Walkthrough mock exam - Paper 1 Section B</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 19 - Summary</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 20 - Writer&apos;s attitude</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 21 - Comparison</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 22 - Walkthrough mock exam - Paper 2 Section A</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 23 - Transactional writing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 24 - Transactional writing 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>English</controllingFieldValue>
+                <valueName>Lesson 25 - Walkthrough mock exam - Paper 2 Section B</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 1 - Prime factors</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 2 - Highest common factors and lowest common multiples</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 3 - Basic fraction skills</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 4 - Comparing and ordering fractions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 5 - Negative numbers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 6 - Converting between fractions, decimals and percentages</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 7 - Ordering fractions decimals and percentages</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 8 - Adding and subtracting fractions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 9 - Multiplying and dividing fractions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 10 - Indices</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 11 - Order of operations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 12 - Substitution</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 13 - Finding the area of common shapes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 14 - Solving one-step and two-step equations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 15 - Expanding brackets and solving equations with brackets</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 16 - Solving equations with unknowns on both sides</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 17 - Basic percentages</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 18 - Percentage increase and decrease</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 19 - Percentage change</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 20 - Compound and simple interest</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 21 - Writing and simlifying a ratio</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 22 - Sharing a ratio</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 23 - Problem solving with ratios</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 24 - Finding angles in triangles and quadrilaterals</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maths</controllingFieldValue>
+                <valueName>Lesson 25 - Angles in parallel lines</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>time_till_session__c</fullName>
+        <externalId>false</externalId>
+        <formula>FLOOR((Session_Date__c - Now()) * 24) +1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Time Till Session (Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Session</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Session_Date__c</columns>
+        <columns>Subject__c</columns>
+        <columns>Tutorial_Topic__c</columns>
+        <columns>Tutor__c</columns>
+        <columns>TuitionGroup__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Today_s_Sessions</fullName>
+        <columns>NAME</columns>
+        <columns>TutorEmailPopulated__c</columns>
+        <columns>Subject__c</columns>
+        <columns>SessionTutor__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>SessionToday__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Today&apos;s Sessions</label>
+    </listViews>
+    <nameField>
+        <label>GetFurther Session Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Sessions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
