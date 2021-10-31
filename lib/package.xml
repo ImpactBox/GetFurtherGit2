@@ -43,6 +43,7 @@
         <members>Create_GetFurther_Sessions</members>
         <members>Tutor_Register_Reminder_Email_Schedule</members>
         <members>Student_Submission_Conversion_Flow</members>
+        <members>Tutor_Register_Reminder_24_Hours</members>
     </types>
     <types>
         <name>ReportType</name>
@@ -62,6 +63,10 @@
     <members>Programme__c-Cohort Layout</members>
     <members>Attendee__c-Attendee Layout</members>
     <members>Survey__c-Student Survey Layout</members>
+    <members>Contact-Student Layout</members>
+    <members>Contact-Tutor Layout</members>
+    <members>StudentSubmission__c-Student Submission Layout</members>
+    <members>Group__c-Group Layout</members>
 </types>
 <types>
         <name>CustomMetadata</name>
@@ -78,8 +83,8 @@
         <members>IB_EditableListField.Tutor_Name</members>
         <members>IB_EditableListSetting.Incomplete_Registers</members>
         <members>IB_EditableListSetting.Registers_To_Complete</members>
-        <members>IB_RegisterField.Did_Well</members>
-        <members>IB_RegisterField.Notes</members>
+        <members>IB_RegisterField.Topics_Skills_to_practise</members>
+        <members>IB_RegisterField.Demonstrate_academic_progress</members>
         <members>IBRegisterSetting.Register</members>
     </types>
     <types>
@@ -89,6 +94,7 @@
   <types>
         <name>ContentAsset</name>
         <members>IMG4115</members>
+        <members>GF_Logo</members>
     </types>
    <types>
     <name>CustomApplication</name>

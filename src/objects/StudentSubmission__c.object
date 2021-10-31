@@ -155,6 +155,15 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>AddressLine1__c</fullName>
+        <externalId>false</externalId>
+        <label>Address Line 1</label>
+        <length>2000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
         <fullName>AnyOtherInfo__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>Is there any other information about you that you would like us to be aware of?</inlineHelpText>
@@ -590,9 +599,19 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Grade_Awarded_for_Chosen_Subject__c</fullName>
+        <fullName>GradeAwardedforMaths__c</fullName>
         <externalId>false</externalId>
-        <label>Grade Awarded for Chosen Subject</label>
+        <label>Grade Awarded for Maths</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grade_Awarded_for_English__c</fullName>
+        <externalId>false</externalId>
+        <label>Grade Awarded for English</label>
         <length>255</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -858,10 +877,32 @@ I believe I will receive an excellent grade in this maths course.</inlineHelpTex
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Previous_Attempt_GCSE_in_Subject__c</fullName>
+        <fullName>Postcode__c</fullName>
+        <externalId>false</externalId>
+        <label>Postcode</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PreviousAttemptGCSEinMaths__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous Attempt GCSE in Maths?</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Yes_no_prefernottosay</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Previous_Attempt_GCSE_in_English__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>Have you previously attempted a GCSE in your chosen subject?</inlineHelpText>
-        <label>Previous Attempt GCSE in Subject?</label>
+        <label>Previous Attempt GCSE in English?</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>

@@ -10,6 +10,7 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
+        <members>GF_Logo</members>
         <members>IMG4115</members>
         <name>ContentAsset</name>
     </types>
@@ -32,8 +33,8 @@
         <members>IB_EditableListSetting.Completed_Registers</members>
         <members>IB_EditableListSetting.Incomplete_Registers</members>
         <members>IB_EditableListSetting.Registers_To_Complete</members>
-        <members>IB_RegisterField.Did_Well</members>
-        <members>IB_RegisterField.Notes</members>
+        <members>IB_RegisterField.Demonstrate_academic_progress</members>
+        <members>IB_RegisterField.Topics_Skills_to_practise</members>
         <name>CustomMetadata</name>
     </types>
     <types>
@@ -63,6 +64,7 @@
         <members>Create_GetFurther_Sessions</members>
         <members>Engagement_Naming_Convention</members>
         <members>Student_Submission_Conversion_Flow</members>
+        <members>Tutor_Register_Reminder_24_Hours</members>
         <members>Tutor_Register_Reminder_Email_Schedule</members>
         <members>Update_Session_Status_based_on_register_completion</members>
         <name>Flow</name>
@@ -80,8 +82,12 @@
     <types>
         <members>Account-School Layout</members>
         <members>Attendee__c-Attendee Layout</members>
+        <members>Contact-Student Layout</members>
+        <members>Contact-Tutor Layout</members>
         <members>GetFurther_Session__c-GetFurther Session Layout</members>
+        <members>Group__c-Group Layout</members>
         <members>Programme__c-Cohort Layout</members>
+        <members>StudentSubmission__c-Student Submission Layout</members>
         <members>Survey__c-Student Survey Layout</members>
         <name>Layout</name>
     </types>

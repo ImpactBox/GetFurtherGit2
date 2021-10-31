@@ -2151,6 +2151,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>GetFurther_Session__c.SessionYesterday__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>GetFurther_Session__c.Session_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2476,6 +2481,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>StudentSubmission__c.AddressLine1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>StudentSubmission__c.AnyOtherInfo__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2581,7 +2591,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>StudentSubmission__c.Grade_Awarded_for_Chosen_Subject__c</field>
+        <field>StudentSubmission__c.GradeAwardedforMaths__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>StudentSubmission__c.Grade_Awarded_for_English__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2686,7 +2701,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>StudentSubmission__c.Previous_Attempt_GCSE_in_Subject__c</field>
+        <field>StudentSubmission__c.Postcode__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>StudentSubmission__c.PreviousAttemptGCSEinMaths__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>StudentSubmission__c.Previous_Attempt_GCSE_in_English__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2914,6 +2939,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>GetFurther_Session__c-GetFurther Session Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Group__c-Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>StudentSubmission__c-Student Submission Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Survey__c-Student Survey Layout</layout>

@@ -35,6 +35,10 @@
                 <behavior>Readonly</behavior>
                 <field>SessionLink__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>SessionYesterday__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

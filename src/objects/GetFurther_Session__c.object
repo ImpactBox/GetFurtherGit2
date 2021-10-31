@@ -306,12 +306,31 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Session Tutor</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>The tutor you select must have an Engagement record linked to the session&apos;s Tuition Group. Please create an Engagement for the tutor first before selecting them as the session tutor.</errorMessage>
+            <filterItems>
+                <field>Engagement__c.Group__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.TuitionGroup__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
         <referenceTo>Engagement__c</referenceTo>
         <relationshipLabel>Sessions</relationshipLabel>
         <relationshipName>Sessions</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SessionYesterday__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATEVALUE( Session_Date__c ) = (TODAY()-1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SessionYesterday</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Session_Date__c</fullName>

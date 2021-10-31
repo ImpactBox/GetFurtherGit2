@@ -555,6 +555,11 @@
             <field>SessionLink__c</field>
             <table>Programme__c.Tuition_Groups__r.Sessions__r</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SessionYesterday__c</field>
+            <table>Programme__c.Tuition_Groups__r.Sessions__r</table>
+        </columns>
         <masterLabel>Sessions</masterLabel>
     </sections>
 </ReportType>

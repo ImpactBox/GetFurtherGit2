@@ -21,13 +21,13 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Create_Engagement</targetReference>
+                <targetReference>Update_Contact</targetReference>
             </connector>
             <label>Found</label>
         </rules>
     </decisions>
     <description>Converts all collated student date into a Contact, Engagement and Survey record. 
-Subject of study field included in Engagement record creation now.</description>
+Subject of study field included in Engagement record creation now. Also separate update step if contact found!</description>
     <formulas>
         <name>IfStudentIDIsBlank</name>
         <dataType>String</dataType>
@@ -200,9 +200,15 @@ Subject of study field included in Engagement record creation now.</description>
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>GradeAwardedforMaths__c</field>
+            <value>
+                <elementReference>Get_Submission_Details.GradeAwardedforMaths__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Grade_Awarded_for_English__c</field>
             <value>
-                <elementReference>Get_Submission_Details.Grade_Awarded_for_Chosen_Subject__c</elementReference>
+                <elementReference>Get_Submission_Details.Grade_Awarded_for_English__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -230,6 +236,18 @@ Subject of study field included in Engagement record creation now.</description>
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>MailingPostalCode</field>
+            <value>
+                <elementReference>Get_Submission_Details.Postcode__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>MailingStreet</field>
+            <value>
+                <elementReference>Get_Submission_Details.AddressLine1__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>MobilePhone</field>
             <value>
                 <elementReference>Get_Submission_Details.Mobile__c</elementReference>
@@ -242,9 +260,15 @@ Subject of study field included in Engagement record creation now.</description>
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>PreviousAttemptGCSEinMaths__c</field>
+            <value>
+                <elementReference>Get_Submission_Details.PreviousAttemptGCSEinMaths__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Previous_Attempt_GCSE_in_English__c</field>
             <value>
-                <elementReference>Get_Submission_Details.Previous_Attempt_GCSE_in_Subject__c</elementReference>
+                <elementReference>Get_Submission_Details.Previous_Attempt_GCSE_in_English__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -571,6 +595,72 @@ Subject of study field included in Engagement record creation now.</description>
         <outputReference>ExistingContactRecord</outputReference>
         <queriedFields>Id</queriedFields>
     </recordLookups>
+    <recordUpdates>
+        <name>Update_Contact</name>
+        <label>Update Contact</label>
+        <locationX>408</locationX>
+        <locationY>353</locationY>
+        <connector>
+            <targetReference>Create_Engagement</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>ExistingContactRecord.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Courses_Studying_This_Year__c</field>
+            <value>
+                <elementReference>Get_Submission_Details.Courses_Studying_This_Year__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>MailingPostalCode</field>
+            <value>
+                <elementReference>Get_Submission_Details.Postcode__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>MailingStreet</field>
+            <value>
+                <elementReference>Get_Submission_Details.AddressLine1__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Next_Steps_After_Course__c</field>
+            <value>
+                <elementReference>Get_Submission_Details.Next_Steps_After_Course__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>PreviousAttemptGCSEinMaths__c</field>
+            <value>
+                <elementReference>Get_Submission_Details.PreviousAttemptGCSEinMaths__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Previous_Attempt_GCSE_in_English__c</field>
+            <value>
+                <elementReference>Get_Submission_Details.Previous_Attempt_GCSE_in_English__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Reason_for_tutor_will_help_choice__c</field>
+            <value>
+                <elementReference>Get_Submission_Details.Reason_for_tutor_will_help_choice__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Tutor_will_help__c</field>
+            <value>
+                <elementReference>Get_Submission_Details.TutorWillHelp__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contact</object>
+    </recordUpdates>
     <recordUpdates>
         <name>Update_Submission</name>
         <label>Update Submission</label>
