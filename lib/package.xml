@@ -49,6 +49,7 @@
         <name>ReportType</name>
         <members>Cohorts_with_Tuition_Groups_with_Sessions</members>
         <members>Cohorts_with_Tuition_Groups_and_Engagements</members>
+        <members>Tuition_Groups_with_Engagement_Records</members>
     </types>
     <types>
         <name>GlobalValueSet</name>
@@ -86,6 +87,20 @@
         <members>IB_RegisterField.Topics_Skills_to_practise</members>
         <members>IB_RegisterField.Demonstrate_academic_progress</members>
         <members>IBRegisterSetting.Register</members>
+    </types>
+    <types>
+    <name>Report</name>
+    <members>StudentReports</members>
+    <members>StudentReports/Attendance_Percentages_by_Cohort_kRl</members>
+    <members>StudentReports/Average_Student_Attendance_per_Cohort_HRy</members>
+    <members>StudentReports/Attendance_Per_Session_XmY</members>
+    <members>StudentReports/Percentage_Attendance_Per_Student_RvM</members>
+    <members>StudentReports/Engagement_Attendances_by_Student_OB8</members>
+    </types>
+    <types>
+    <name>Dashboard</name>
+    <members>ProgrammeDashboards</members>
+    <members>ProgrammeDashboards/Attendance Dashboard</members>
     </types>
     <types>
         <members>Tutor</members>

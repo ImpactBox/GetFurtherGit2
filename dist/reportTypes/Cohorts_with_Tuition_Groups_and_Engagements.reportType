@@ -484,6 +484,16 @@
             <field>SubjectAreaofStudy__c</field>
             <table>Programme__c.Tuition_Groups__r.Engagements__r</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>TotalAttendancesALL__c</field>
+            <table>Programme__c.Tuition_Groups__r.Engagements__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>PercentageAttendance__c</field>
+            <table>Programme__c.Tuition_Groups__r.Engagements__r</table>
+        </columns>
         <masterLabel>Engagements</masterLabel>
     </sections>
     <sections>
@@ -550,6 +560,21 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Type__c</field>
+            <table>Programme__c.Tuition_Groups__r.Engagements__r.Attendances__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>GetFurther_Session__c.RegisterSubmitted__c</field>
+            <table>Programme__c.Tuition_Groups__r.Engagements__r.Attendances__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>GetFurther_Session__c.SessionTutorName__c</field>
+            <table>Programme__c.Tuition_Groups__r.Engagements__r.Attendances__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>GetFurther_Session__c.SessionTutorContactID__c</field>
             <table>Programme__c.Tuition_Groups__r.Engagements__r.Attendances__r</table>
         </columns>
         <masterLabel>Attendances</masterLabel>

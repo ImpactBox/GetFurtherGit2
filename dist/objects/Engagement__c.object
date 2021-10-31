@@ -255,6 +255,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PercentageAttendance__c</fullName>
+        <externalId>false</externalId>
+        <formula>TotalAttendances__c /  TotalAttendancesALL__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Percentage of sessions attended (divides total number of late/attended attendance records by total number of attendances where the register has been submitted).</inlineHelpText>
+        <label>Percentage Attendance To Date</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
         <fullName>SessionsToDate__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>Counts total sessions in past</inlineHelpText>
@@ -341,6 +355,21 @@
             <field>Attendee__c.Status__c</field>
             <operation>equals</operation>
             <value>Absent</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Attendee__c.Engagement__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TotalAttendancesALL__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Attendances ALL</label>
+        <summaryFilterItems>
+            <field>Attendee__c.Status__c</field>
+            <operation>notEqual</operation>
+            <value>Pending</value>
         </summaryFilterItems>
         <summaryForeignKey>Attendee__c.Engagement__c</summaryForeignKey>
         <summaryOperation>count</summaryOperation>

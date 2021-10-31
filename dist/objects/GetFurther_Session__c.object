@@ -169,6 +169,18 @@
         <type>TextArea</type>
     </fields>
     <fields>
+        <fullName>AttendancePercentage__c</fullName>
+        <externalId>false</externalId>
+        <formula>TotalStudentAttendances__c /  TotalStudents__c</formula>
+        <inlineHelpText>Percentage attendance of students for this session</inlineHelpText>
+        <label>Attendance Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
         <fullName>CollegeCampusName__c</fullName>
         <externalId>false</externalId>
         <formula>Programme__r.College__r.Name</formula>
@@ -487,6 +499,20 @@
             <field>Attendee__c.Status__c</field>
             <operation>equals</operation>
             <value>Attended, Late</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Attendee__c.GetFurther_Session__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TotalStudents__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Students</label>
+        <summaryFilterItems>
+            <field>Attendee__c.Type__c</field>
+            <operation>equals</operation>
+            <value>Student</value>
         </summaryFilterItems>
         <summaryForeignKey>Attendee__c.GetFurther_Session__c</summaryForeignKey>
         <summaryOperation>count</summaryOperation>

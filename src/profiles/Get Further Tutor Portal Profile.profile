@@ -2041,6 +2041,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Engagement__c.PercentageAttendance__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Engagement__c.SessionsToDate__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2071,6 +2076,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Engagement__c.TotalAttendancesALL__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Engagement__c.TotalAttendances__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2087,6 +2097,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>GetFurther_Session__c.Any_Further_Comments__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>GetFurther_Session__c.AttendancePercentage__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2212,6 +2227,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>GetFurther_Session__c.TotalStudentAttendances__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>GetFurther_Session__c.TotalStudents__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
