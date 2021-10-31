@@ -130,7 +130,6 @@
     </types>
     <types>
     <members>AccountType</members>
-    <members>IsCustomerPortal</members>
     <name>StandardValueSet</name>
     </types>
     <types>
