@@ -1,0 +1,107 @@
+{
+  "appPageId" : "ebd3f479-076e-4b87-a33a-706a5ce86228",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "77db940e-38c6-4176-9941-29b8a96e9c3c",
+  "label" : "Login",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "forgotPasswordLabel" : "Forgot your password?",
+        "forgotPasswordUrl" : "/ForgotPassword",
+        "loginButtonLabel" : "Log in",
+        "passwordLabel" : "Password",
+        "selfRegisterLabel" : "Not a member?",
+        "selfRegisterUrl" : "/SelfRegister",
+        "startUrl" : "",
+        "usernameLabel" : "Username"
+      },
+      "componentName" : "salesforceIdentity:loginForm2",
+      "id" : "2d1b92c9-430e-4d7f-b5d0-1ea884581386",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "employeeLoginLinkLabel" : "Are you an employee? Login here"
+      },
+      "componentName" : "salesforceIdentity:employeeLoginLink2",
+      "id" : "a0f6d00a-ddd7-4c47-aebc-c793bd09a073",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1f9d0663-4aa4-43f4-950f-1c5fc2b0535b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Login"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "13d9c260-9a95-483a-8788-2bf4a9f73550",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "88b3f1d8-6b81-43a1-acb0-2d2d7fc1c7b4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 18px;\">Enter your details below to log in to the Get Further Portal</span></p><p style=\"text-align: center;\"><br></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "6644bcb4-2a12-4f42-88ae-4d0010107736",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "68278bcf-3196-422a-b84e-ca8a301060bd",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 14px;\">Forgotten your password?</span></p><p style=\"text-align: center;\"><br></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "7c77d00b-19eb-4d9b-a2f4-3ffc380b3b99",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "checkEmailUrl" : "./CheckPasswordResetEmail",
+        "submitButtonLabel" : "Reset Password",
+        "usernameLabel" : "Username"
+      },
+      "componentName" : "salesforceIdentity:forgotPassword2",
+      "id" : "b1e9ecc4-7087-4609-9fb1-6d1ead5100f0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.GF_image_2.1}\" style=\"width: 298.547px; height: 207.859px;\"></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "cfbc945d-0c5e-46e7-ad44-6f39e2d94cf6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b45cbebb-2ad0-48ca-bef5-51cf2bf635fb",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "3aefaa29-ee78-4528-ba89-512dac0e7966",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "login-home"
+}

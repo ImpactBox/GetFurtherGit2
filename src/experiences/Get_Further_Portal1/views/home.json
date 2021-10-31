@@ -1,0 +1,65 @@
+{
+  "appPageId" : "fb3ada22-5d1e-456d-a247-ee626018b26c",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "3c7e23f2-dc7c-4940-bb95-bdcbd8e3add9",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "adf6f6de-25dc-4766-a7f4-b645b112bff9",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerBackgroundColor" : "",
+        "bannerPosition" : "top",
+        "bannerSizePercent" : 35,
+        "borderRadius" : 20,
+        "boxShadow" : true,
+        "haveBanner" : false,
+        "iconBackgroundColor" : "rgb(255,255,255)",
+        "iconSize" : "medium",
+        "noImageColor" : "rgb(212, 212, 212)",
+        "overlay" : "rgba(162, 69, 33, 0.01)",
+        "templateType" : "full",
+        "tileMenuEditor" : "Default_Navigation1",
+        "titleColor" : "",
+        "titleFontSize" : "large",
+        "titleHorizontalAlign" : "center"
+      },
+      "componentName" : "community_navigation:tileMenu",
+      "id" : "d8805f0d-3a78-4a6a-82ef-6e61325e9c3e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3d545200-a372-4d63-bee6-b91b744a740c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "30ec20bc-28b3-48bb-928c-a68266bd34e6",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "3fab9e47-5d74-4ba0-9c37-570905c88f81",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "33ab2ad7-cc03-497c-9765-0271d4433839",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "352ae93f-1854-4fea-b7a1-7c10cbcf9d0b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}
