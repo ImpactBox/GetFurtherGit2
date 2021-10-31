@@ -57,6 +57,18 @@
        <members>Exam_Boards</members>
        <members>Poor_Excellent</members>
    </types>
+   types>
+       <members>Get Further Portal</members>
+       <name>Network</name>
+    </types>
+    <types>
+       <members>Get_Further_Portal</members>
+       <name>CustomSite</name>
+   </types>
+   <types>
+       <members>Get_Further_Portal1</members>
+       <name>ExperienceBundle</name>
+       </types>
    <types>
     <name>Layout</name>
     <members>Account-School Layout</members>
@@ -68,6 +80,7 @@
     <members>Contact-Tutor Layout</members>
     <members>StudentSubmission__c-Student Submission Layout</members>
     <members>Group__c-Group Layout</members>
+    <members>Contact-General Contact Layout</members>
 </types>
 <types>
         <name>CustomMetadata</name>
