@@ -36,7 +36,7 @@ Subject of study field included in Engagement record creation now. Also separate
     <formulas>
         <name>RelevantContactID</name>
         <dataType>String</dataType>
-        <expression>IF(ISNULL({!ExistingContactRecord.Id})=TRUE,{!NewContactID},{!ExistingContactRecord.Id})</expression>
+        <expression>IF(ISBlank({!ExistingContactRecord.Id})=TRUE, {!NewContactID}, {!ExistingContactRecord.Id})</expression>
     </formulas>
     <interviewLabel>Student Submission Conversion Flow {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Student Submission Conversion Flow</label>

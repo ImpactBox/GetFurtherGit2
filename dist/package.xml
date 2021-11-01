@@ -49,11 +49,6 @@
         <name>CustomTab</name>
     </types>
     <types>
-        <members>ProgrammeDashboards</members>
-        <members>ProgrammeDashboards/QFisJsUluPMebaZtZgKIhupNAIkxEM</members>
-        <name>Dashboard</name>
-    </types>
-    <types>
         <members>unfiled$public</members>
         <members>unfiled$public/Register_Session_Reminder_Tutors_1634550726305</members>
         <members>unfiled$public/Session_Register_Reminder_Email_24_Hours_1635706689115</members>
@@ -103,6 +98,10 @@
         <members>StudentSubmission__c-Student Submission Layout</members>
         <members>Survey__c-Student Survey Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Default_Navigation1</members>
+        <name>NavigationMenu</name>
     </types>
     <types>
         <members>Get Further Portal</members>

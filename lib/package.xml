@@ -74,6 +74,10 @@
     <members>Contact.Create_Engagement</members>
         <name>QuickAction</name>
         </types>
+        <types>
+        <name>NavigationMenu</name>
+        <members>Default_Navigation1</members>
+        </types>
     <types>
         <members>unfiled$public</members>
         <members>unfiled$public/Register_Session_Reminder_Tutors_1634550726305</members>
@@ -124,11 +128,7 @@
     <members>StudentReports/Engagement_Attendances_by_Student_OB8</members>
     <members>StudentReports/Student_Attendance_Past_30_days_Qao</members>
     </types>
-    <types>
-    <name>Dashboard</name>
-    <members>ProgrammeDashboards</members>
-    <members>ProgrammeDashboards/QFisJsUluPMebaZtZgKIhupNAIkxEM</members>
-    </types>
+   
     <types>
         <members>Tutor</members>
         <name>SharingSet</name>

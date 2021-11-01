@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Get Further Portal</container>
+    <containerType>Network</containerType>
+    <label>Default Navigation</label>
+    <navigationMenuItem>
+        <label>My Registers</label>
+        <menuItemBranding>
+            <tileImage>GF_image_2</tileImage>
+        </menuItemBranding>
+        <position>1</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/sessions</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>My Details</label>
+        <menuItemBranding>
+            <tileImage>IMG_4114</tileImage>
+        </menuItemBranding>
+        <position>2</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/profile/home</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

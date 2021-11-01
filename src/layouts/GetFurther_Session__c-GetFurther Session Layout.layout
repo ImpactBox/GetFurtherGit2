@@ -136,6 +136,7 @@
         <fields>NAME</fields>
         <fields>Type__c</fields>
         <fields>Status__c</fields>
+        <fields>Engagement__c.NAME</fields>
         <relatedList>Attendee__c.GetFurther_Session__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
