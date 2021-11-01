@@ -71,12 +71,17 @@
        </types>
     <types>
         <members>GetFurther_Session__c.Tutor_Register_Reminder_Email_Alert</members>
+        <members>GetFurther_Session__c.Tutor_Register_Reminder_Email_Alert_24_Hours	</members>
         <name>WorkflowAlert</name>
     </types>    
     <types>
         <members>Sharing</members>
         <name>Settings</name>
-    </types>   
+    </types>  
+    <types> 
+    <members>Contact.Create_Engagement</members>
+        <name>QuickAction</name>
+        </types>
     <types>
         <members>unfiled$public</members>
         <members>unfiled$public/Register_Session_Reminder_Tutors_1634550726305</members>

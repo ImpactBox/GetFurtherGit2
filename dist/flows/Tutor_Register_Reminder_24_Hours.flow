@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
-        <name>Send_Reminder_Email</name>
-        <label>Send Reminder Email</label>
-        <locationX>176</locationX>
-        <locationY>327</locationY>
-        <actionName>GetFurther_Session__c.Tutor_Register_Reminder_Email_Alert</actionName>
+        <name>Send_24_Hour_Reminder</name>
+        <label>Send 24 Hour Reminder</label>
+        <locationX>489</locationX>
+        <locationY>220</locationY>
+        <actionName>GetFurther_Session__c.Tutor_Register_Reminder_Email_Alert_24_Hours</actionName>
         <actionType>emailAlert</actionType>
         <inputParameters>
             <name>SObjectRowId</name>
@@ -45,7 +45,7 @@
         <locationX>51</locationX>
         <locationY>50</locationY>
         <connector>
-            <targetReference>Send_Reminder_Email</targetReference>
+            <targetReference>Send_24_Hour_Reminder</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -91,7 +91,7 @@
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>TodayDateTime</name>
         <dataType>DateTime</dataType>

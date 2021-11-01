@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldOverrides>
+        <field>Status__c</field>
+        <literalValue>Active</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Type__c</field>
+        <formula>IF(Contact.RecordType.DeveloperName = &apos;Tutor_Record_Type&apos;, &quot;Tutor&quot;,&quot;Student&quot;)</formula>
+    </fieldOverrides>
+    <label>Create Engagement</label>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Name</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Status__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Group__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Type__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+    </quickActionLayout>
+    <successMessage>Your Engagement record has been created!</successMessage>
+    <targetObject>Engagement__c</targetObject>
+    <targetParentField>Contact__c</targetParentField>
+    <type>Create</type>
+</QuickAction>
