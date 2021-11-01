@@ -91,7 +91,7 @@
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>TodayDateTime</name>
         <dataType>DateTime</dataType>

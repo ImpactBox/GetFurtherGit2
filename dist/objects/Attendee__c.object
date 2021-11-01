@@ -186,16 +186,15 @@
     </fields>
     <fields>
         <fullName>Engagement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Engagement</label>
         <referenceTo>Engagement__c</referenceTo>
         <relationshipLabel>Attendances</relationshipLabel>
         <relationshipName>Attendances</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>GetFurther_Session__c</fullName>
@@ -204,7 +203,7 @@
         <referenceTo>GetFurther_Session__c</referenceTo>
         <relationshipLabel>Attendances</relationshipLabel>
         <relationshipName>Attendances</relationshipName>
-        <relationshipOrder>1</relationshipOrder>
+        <relationshipOrder>0</relationshipOrder>
         <reparentableMasterDetail>false</reparentableMasterDetail>
         <trackTrending>false</trackTrending>
         <type>MasterDetail</type>

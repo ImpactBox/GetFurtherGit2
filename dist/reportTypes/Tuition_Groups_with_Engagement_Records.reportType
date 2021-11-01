@@ -135,16 +135,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>TotalAttendances__c</field>
-            <table>Group__c.Engagements__r</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>TotalAbsences__c</field>
-            <table>Group__c.Engagements__r</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Tutor__c</field>
             <table>Group__c.Engagements__r</table>
         </columns>
@@ -156,11 +146,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>StartDate__c</field>
-            <table>Group__c.Engagements__r</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>SessionsToDate__c</field>
             <table>Group__c.Engagements__r</table>
         </columns>
         <columns>
@@ -181,16 +166,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>SubjectAreaofStudy__c</field>
-            <table>Group__c.Engagements__r</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>TotalAttendancesALL__c</field>
-            <table>Group__c.Engagements__r</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>PercentageAttendance__c</field>
             <table>Group__c.Engagements__r</table>
         </columns>
         <masterLabel>Engagements</masterLabel>
