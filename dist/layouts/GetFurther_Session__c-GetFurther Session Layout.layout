@@ -135,6 +135,7 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>Engagement__c</fields>
+        <fields>Engagement__c.NAME</fields>
         <fields>Type__c</fields>
         <fields>Status__c</fields>
         <relatedList>Attendee__c.GetFurther_Session__c</relatedList>

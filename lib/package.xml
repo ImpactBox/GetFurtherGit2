@@ -71,7 +71,7 @@
        </types>
     <types>
         <members>GetFurther_Session__c.Tutor_Register_Reminder_Email_Alert</members>
-        <members>GetFurther_Session__c.Tutor_Register_Reminder_Email_Alert_24_Hours	</members>
+        <members>GetFurther_Session__c.Tutor_Register_Reminder_Email_Alert_24_Hours</members>
         <name>WorkflowAlert</name>
     </types>    
     <types>

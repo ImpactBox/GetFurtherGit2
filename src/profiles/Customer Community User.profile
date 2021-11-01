@@ -436,11 +436,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Attendee__c.Engagement__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Attendee__c.Notes__c</field>
         <readable>true</readable>
     </fieldPermissions>
