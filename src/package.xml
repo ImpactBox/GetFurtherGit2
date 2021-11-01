@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>IB_RegisterServerController</members>
-        <members>IB_RegisterServerControllerTest</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>IB_Register</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-    <types>
         <members>GF_Logo</members>
         <members>IMG4115</members>
         <name>ContentAsset</name>
@@ -132,11 +123,13 @@
         <members>StudentReports/Average_Student_Attendance_per_Cohort_HRy</members>
         <members>StudentReports/Engagement_Attendances_by_Student_OB8</members>
         <members>StudentReports/Percentage_Attendance_Per_Student_RvM</members>
+        <members>StudentReports/Student_Attendance_Past_30_days_Qao</members>
         <name>Report</name>
     </types>
     <types>
         <members>Cohorts_with_Tuition_Groups_and_Engagements</members>
         <members>Cohorts_with_Tuition_Groups_with_Sessions</members>
+        <members>Sessions_and_Attendances</members>
         <members>Tuition_Groups_with_Engagement_Records</members>
         <name>ReportType</name>
     </types>

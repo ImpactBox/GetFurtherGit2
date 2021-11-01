@@ -5,21 +5,20 @@
         <backgroundColor2>#FFFFFF</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
         <chartSummaries>
-            <aggregate>Average</aggregate>
             <axisBinding>y</axisBinding>
-            <column>Programme__c.Tuition_Groups__r.Sessions__r$AttendancePercentage__c</column>
+            <column>RowCount</column>
         </chartSummaries>
-        <chartType>VerticalColumnGrouped</chartType>
+        <chartType>HorizontalBarStacked</chartType>
         <enableHoverLabels>false</enableHoverLabels>
         <expandOthers>true</expandOthers>
-        <groupingColumn>Programme__c$Name</groupingColumn>
+        <groupingColumn>GetFurther_Session__c$Name</groupingColumn>
         <legendPosition>Right</legendPosition>
         <location>CHART_BOTTOM</location>
-        <secondaryGroupingColumn>Programme__c.Tuition_Groups__r.Sessions__r$Name</secondaryGroupingColumn>
+        <secondaryGroupingColumn>GetFurther_Session__c.Attendances__r$Status__c</secondaryGroupingColumn>
         <showAxisLabels>true</showAxisLabels>
         <showPercentage>false</showPercentage>
         <showTotal>false</showTotal>
-        <showValues>true</showValues>
+        <showValues>false</showValues>
         <size>Medium</size>
         <summaryAxisRange>Auto</summaryAxisRange>
         <textColor>#000000</textColor>
@@ -28,16 +27,24 @@
         <titleSize>18</titleSize>
     </chart>
     <columns>
-        <field>Programme__c.Tuition_Groups__r$Name</field>
+        <field>GetFurther_Session__c$TuitionGroup__c</field>
     </columns>
     <columns>
-        <aggregateTypes>Sum</aggregateTypes>
-        <aggregateTypes>Average</aggregateTypes>
-        <field>Programme__c.Tuition_Groups__r.Sessions__r$AttendancePercentage__c</field>
+        <field>GetFurther_Session__c.Attendances__r$Name</field>
+    </columns>
+    <columns>
+        <field>GetFurther_Session__c.Attendances__r$Engagement__c.Contact__c</field>
     </columns>
     <filter>
         <criteriaItems>
-            <column>Programme__c.Tuition_Groups__r.Sessions__r$RegisterSubmitted__c</column>
+            <column>GetFurther_Session__c.Attendances__r$Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Student</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>GetFurther_Session__c$RegisterSubmitted__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notEqual</operator>
@@ -48,26 +55,28 @@
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>Programme__c$Name</field>
+        <field>GetFurther_Session__c$Name</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>Programme__c.Tuition_Groups__r.Sessions__r$Name</field>
+        <field>GetFurther_Session__c.Attendances__r$Status__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>Student Attendance Per Session</name>
+    <name>Student Attendance, Past 30 days</name>
     <params>
         <name>co</name>
         <value>1</value>
     </params>
-    <reportType>Cohorts_with_Tuition_Groups_with_Sessions__c</reportType>
+    <reportType>Sessions_and_Attendances__c</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
-        <dateColumn>Programme__c.Tuition_Groups__r.Sessions__r$Session_Date__c</dateColumn>
-        <interval>INTERVAL_CURFY</interval>
+        <dateColumn>GetFurther_Session__c$Session_Date__c</dateColumn>
+        <endDate>2021-11-01</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2021-10-03</startDate>
     </timeFrameFilter>
 </Report>

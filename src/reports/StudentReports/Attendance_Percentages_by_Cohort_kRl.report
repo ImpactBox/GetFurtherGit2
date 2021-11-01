@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_74010050</developerName>
+        <masterLabel>Attendance Status</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Programme__c.Tuition_Groups__r.Engagements__r.Attendances__r$Status__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Attended</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Late</sourceValue>
+            </sourceValues>
+            <value>Attended</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Absent</sourceValue>
+            </sourceValues>
+            <value>Absent</value>
+        </values>
+    </buckets>
     <chart>
         <backgroundColor1>#FFFFFF</backgroundColor1>
         <backgroundColor2>#FFFFFF</backgroundColor2>
@@ -14,7 +37,7 @@
         <groupingColumn>Programme__c$Name</groupingColumn>
         <legendPosition>Right</legendPosition>
         <location>CHART_BOTTOM</location>
-        <secondaryGroupingColumn>Programme__c.Tuition_Groups__r.Engagements__r.Attendances__r$Status__c</secondaryGroupingColumn>
+        <secondaryGroupingColumn>BucketField_74010050</secondaryGroupingColumn>
         <showAxisLabels>true</showAxisLabels>
         <showPercentage>false</showPercentage>
         <showTotal>false</showTotal>
@@ -60,7 +83,7 @@
     </groupingsDown>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>Programme__c.Tuition_Groups__r.Engagements__r.Attendances__r$Status__c</field>
+        <field>BucketField_74010050</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <name>Attendance Percentages by Cohort</name>

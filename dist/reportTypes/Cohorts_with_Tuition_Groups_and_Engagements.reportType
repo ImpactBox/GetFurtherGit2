@@ -469,6 +469,21 @@
             <field>SubjectAreaofStudy__c</field>
             <table>Programme__c.Tuition_Groups__r.Engagements__r</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>TotalAttendancesALL__c</field>
+            <table>Programme__c.Tuition_Groups__r.Engagements__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>TotalSessionsAttended__c</field>
+            <table>Programme__c.Tuition_Groups__r.Engagements__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>PercentageAttendanceToDate__c</field>
+            <table>Programme__c.Tuition_Groups__r.Engagements__r</table>
+        </columns>
         <masterLabel>Engagements</masterLabel>
     </sections>
     <sections>

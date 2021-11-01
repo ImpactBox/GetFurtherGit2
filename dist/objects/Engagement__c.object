@@ -255,6 +255,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PercentageAttendanceToDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>TotalSessionsAttended__c /  TotalAttendancesALL__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Percentage attendance so far (excludes attendances where session registers have not yet been submitted)</inlineHelpText>
+        <label>Percentage Attendance To Date</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
         <fullName>StartDate__c</fullName>
         <externalId>false</externalId>
         <label>Start Date</label>
@@ -316,6 +330,37 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TotalAttendancesALL__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Attendances ALL</label>
+        <summaryFilterItems>
+            <field>Attendee__c.Status__c</field>
+            <operation>notEqual</operation>
+            <value>Pending</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Attendee__c.Engagement__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TotalSessionsAttended__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of sessions attended to date</inlineHelpText>
+        <label>Total Sessions Attended</label>
+        <summaryFilterItems>
+            <field>Attendee__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Attended, Late</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Attendee__c.Engagement__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
     </fields>
     <fields>
         <fullName>Tutor__c</fullName>

@@ -5,15 +5,17 @@
         <backgroundColor2>#FFFFFF</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
         <chartSummaries>
-            <aggregate>Sum</aggregate>
+            <aggregate>Average</aggregate>
             <axisBinding>y</axisBinding>
             <column>Programme__c.Tuition_Groups__r.Sessions__r$AttendancePercentage__c</column>
         </chartSummaries>
-        <chartType>VerticalColumn</chartType>
+        <chartType>VerticalColumnGrouped</chartType>
         <enableHoverLabels>false</enableHoverLabels>
         <expandOthers>true</expandOthers>
-        <groupingColumn>Programme__c.Tuition_Groups__r.Sessions__r$Name</groupingColumn>
+        <groupingColumn>Programme__c$Name</groupingColumn>
+        <legendPosition>Right</legendPosition>
         <location>CHART_BOTTOM</location>
+        <secondaryGroupingColumn>Programme__c.Tuition_Groups__r.Sessions__r$Name</secondaryGroupingColumn>
         <showAxisLabels>true</showAxisLabels>
         <showPercentage>false</showPercentage>
         <showTotal>false</showTotal>
@@ -40,13 +42,6 @@
             <isUnlocked>true</isUnlocked>
             <operator>notEqual</operator>
             <value></value>
-        </criteriaItems>
-        <criteriaItems>
-            <column>Programme__c.Tuition_Groups__r.Sessions__r$TotalStudents__c</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>greaterThan</operator>
-            <value>0</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>

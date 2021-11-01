@@ -23,15 +23,6 @@
         <members>Account_Record_Page</members>
     </types>
     <types>
-        <members>IB_RegisterServerController</members>
-        <members>IB_RegisterServerControllerTest</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>IB_Register</members>
-        <name>AuraDefinitionBundle</name>
-    </types>    
-    <types>
     <members>FooterIcons</members>
     <name>StaticResource</name>
 </types>
@@ -50,6 +41,7 @@
         <members>Cohorts_with_Tuition_Groups_with_Sessions</members>
         <members>Cohorts_with_Tuition_Groups_and_Engagements</members>
         <members>Tuition_Groups_with_Engagement_Records</members>
+        <members>Sessions_and_Attendances</members>
     </types>
     <types>
         <name>GlobalValueSet</name>
@@ -130,6 +122,7 @@
     <members>StudentReports/Attendance_Per_Session_XmY</members>
     <members>StudentReports/Percentage_Attendance_Per_Student_RvM</members>
     <members>StudentReports/Engagement_Attendances_by_Student_OB8</members>
+    <members>StudentReports/Student_Attendance_Past_30_days_Qao</members>
     </types>
     <types>
     <name>Dashboard</name>

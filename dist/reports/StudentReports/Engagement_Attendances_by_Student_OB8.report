@@ -5,8 +5,9 @@
         <backgroundColor2>#FFFFFF</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
         <chartSummaries>
+            <aggregate>Sum</aggregate>
             <axisBinding>y</axisBinding>
-            <column>RowCount</column>
+            <column>Group__c.Engagements__r$PercentageAttendanceToDate__c</column>
         </chartSummaries>
         <chartType>HorizontalBarGrouped</chartType>
         <enableHoverLabels>false</enableHoverLabels>
@@ -29,6 +30,10 @@
     <columns>
         <field>Group__c$Cohort__c</field>
     </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Group__c.Engagements__r$PercentageAttendanceToDate__c</field>
+    </columns>
     <filter>
         <criteriaItems>
             <column>Group__c.Engagements__r$Type__c</column>
@@ -36,6 +41,13 @@
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
             <value>Student</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Group__c.Engagements__r$TotalAttendancesALL__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>0</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
