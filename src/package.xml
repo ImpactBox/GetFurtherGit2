@@ -100,7 +100,7 @@
         <name>Layout</name>
     </types>
     <types>
-        <members>Default_Navigation1</members>
+        <members>*</members>
         <name>NavigationMenu</name>
     </types>
     <types>

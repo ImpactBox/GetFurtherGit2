@@ -76,7 +76,7 @@
         </types>
         <types>
         <name>NavigationMenu</name>
-        <members>Default_Navigation1</members>
+        <members>*</members>
         </types>
     <types>
         <members>unfiled$public</members>
