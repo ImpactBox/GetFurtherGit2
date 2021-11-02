@@ -458,6 +458,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Attendee__c.Topic__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Attendee__c.Type__c</field>
         <readable>false</readable>
     </fieldPermissions>

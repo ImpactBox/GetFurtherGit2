@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "7d5b837f-6697-4679-a8ec-51fec1a8456c",
+  "appPageId" : "fb3ada22-5d1e-456d-a247-ee626018b26c",
+  "id" : "bff867a7-e0ba-417b-a54e-786c30c57fe2",
+  "label" : "Session Related List",
+  "objectApiName" : "GetFurther_Session__c",
+  "routeType" : "relatedlist-a16",
+  "type" : "route",
+  "urlPrefix" : "sessions/getfurther-session"
+}
