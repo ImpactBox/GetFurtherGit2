@@ -8,30 +8,6 @@
     "regionName" : "header",
     "type" : "region"
   }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "bannerBackgroundColor" : "",
-        "bannerPosition" : "top",
-        "bannerSizePercent" : 35,
-        "borderRadius" : 20,
-        "boxShadow" : true,
-        "haveBanner" : false,
-        "iconBackgroundColor" : "rgb(255,255,255)",
-        "iconSize" : "medium",
-        "noImageColor" : "rgb(212, 212, 212)",
-        "overlay" : "rgba(162, 69, 33, 0.01)",
-        "templateType" : "full",
-        "tileMenuEditor" : "Default_Navigation1",
-        "titleColor" : "",
-        "titleFontSize" : "large",
-        "titleHorizontalAlign" : "center"
-      },
-      "componentName" : "community_navigation:tileMenu",
-      "id" : "d8805f0d-3a78-4a6a-82ef-6e61325e9c3e",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "3d545200-a372-4d63-bee6-b91b744a740c",
     "regionName" : "content",
     "type" : "region"

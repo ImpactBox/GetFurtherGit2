@@ -100,6 +100,10 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Default_User_Profile_Menu</members>
+        <name>NavigationMenu</name>
+    </types>
+    <types>
         <members>Get Further Portal</members>
         <name>Network</name>
     </types>
@@ -154,5 +158,5 @@
         <members>Sharing</members>
         <name>Settings</name>
     </types>
-    <version>50.0</version>
+    <version>53.0</version>
 </Package>

@@ -50,6 +50,10 @@
        <members>Poor_Excellent</members>
    </types>
    <types>
+   <name>NavigationMenu</name>
+   <members>Default_User_Profile_Menu</members>
+   </types>
+   <types>
        <members>Get Further Portal</members>
        <name>Network</name>
     </types>
@@ -155,5 +159,5 @@
     <members>*</members>
     <name>CustomTab</name>
     </types>
-    <version>50.0</version>
+    <version>53.0</version>
 </Package>

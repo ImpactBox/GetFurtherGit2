@@ -7,6 +7,7 @@
         <locationY>327</locationY>
         <actionName>GetFurther_Session__c.Tutor_Register_Reminder_Email_Alert</actionName>
         <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>SObjectRowId</name>
             <value>
