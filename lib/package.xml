@@ -122,7 +122,7 @@
         <members>IB_RegisterField.Topics_Skills_to_practise</members>
         <members>IB_RegisterField.Demonstrate_academic_progress</members>
         <members>IB_RegisterField.English_Topic</members>
-        <members>IB_RegisterField.Topic</members>
+        <members>IB_RegisterField.Topic_Covered</members>
         <members>IBRegisterSetting.Register</members>
     </types>
     <types>
