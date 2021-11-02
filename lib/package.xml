@@ -75,7 +75,7 @@
         <name>QuickAction</name>
         </types>
     <types>
-    <members>*</members>
+    <members>cbGet_Further_Portal</members>
     <name>NetworkBranding</name>
   </types>
     <types>
