@@ -100,10 +100,6 @@
         <name>Layout</name>
     </types>
     <types>
-        <members>Default_Navigation1.navigationMenu</members>
-        <name>NavigationMenu</name>
-    </types>
-    <types>
         <members>Get Further Portal</members>
         <name>Network</name>
     </types>

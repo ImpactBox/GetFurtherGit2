@@ -15,6 +15,7 @@
         </inputParameters>
     </actionCalls>
     <apiVersion>53.0</apiVersion>
+    <description>10am send</description>
     <formulas>
         <name>TodayDateTimeFormula</name>
         <dataType>DateTime</dataType>
@@ -87,7 +88,7 @@
         <schedule>
             <frequency>Daily</frequency>
             <startDate>2021-10-20</startDate>
-            <startTime>19:00:00.000Z</startTime>
+            <startTime>10:00:00.000Z</startTime>
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>

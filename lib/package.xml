@@ -74,10 +74,6 @@
     <members>Contact.Create_Engagement</members>
         <name>QuickAction</name>
         </types>
-        <types>
-        <name>NavigationMenu</name>
-        <members>Default_Navigation1.navigationMenu</members>
-        </types>
     <types>
         <members>unfiled$public</members>
         <members>unfiled$public/Register_Session_Reminder_Tutors_1634550726305</members>
