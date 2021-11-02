@@ -75,6 +75,10 @@
         <name>QuickAction</name>
         </types>
     <types>
+    <members>*</members>
+    <name>NetworkBranding</name>
+  </types>
+    <types>
         <members>unfiled$public</members>
         <members>unfiled$public/Register_Session_Reminder_Tutors_1634550726305</members>
        <members>unfiled$public/Session_Register_Reminder_Email_Tutors_1634551435993</members>

@@ -105,6 +105,10 @@
     </types>
     <types>
         <members>*</members>
+        <name>NetworkBranding</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>Profile</name>
     </types>
     <types>
