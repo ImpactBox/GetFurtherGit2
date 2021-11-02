@@ -53,5 +53,5 @@
         <standardTab>Chatter</standardTab>
     </tabs>
     <urlPathPrefix>GetFurther</urlPathPrefix>
-    <welcomeTemplate>unfiled$public/Welcome_to_Get_Further</welcomeTemplate>
+    <welcomeTemplate>Welcome/Welcome_to_Get_Further</welcomeTemplate>
 </Network>
