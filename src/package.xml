@@ -105,7 +105,6 @@
     </types>
     <types>
         <members>cbGet_Further_Portal</members>
-        <members>cbGet_Further_Portal.networkBranding-meta</members>
         <name>NetworkBranding</name>
     </types>
     <types>
