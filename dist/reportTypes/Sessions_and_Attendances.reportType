@@ -331,6 +331,11 @@
             <field>Topic__c</field>
             <table>GetFurther_Session__c.Attendances__r</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>EnglishTopic__c</field>
+            <table>GetFurther_Session__c.Attendances__r</table>
+        </columns>
         <masterLabel>Attendees</masterLabel>
     </sections>
 </ReportType>

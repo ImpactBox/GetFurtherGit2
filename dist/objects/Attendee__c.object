@@ -198,6 +198,285 @@
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
     <fields>
+        <fullName>EnglishTopic__c</fullName>
+        <externalId>false</externalId>
+        <label>English Topic</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>GCSE - Inference and Information Retrieval</fullName>
+                    <default>false</default>
+                    <label>GCSE - Inference and Information Retrieval</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Inference</fullName>
+                    <default>false</default>
+                    <label>GCSE - Inference</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Using Quotations (part 1)</fullName>
+                    <default>false</default>
+                    <label>GCSE - Using Quotations (part 1)</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Using Quotations (part 2)</fullName>
+                    <default>false</default>
+                    <label>GCSE - Using Quotations (part 2)</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Sentence Structure</fullName>
+                    <default>false</default>
+                    <label>GCSE - Sentence Structure</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Sentence Structure and Commas</fullName>
+                    <default>false</default>
+                    <label>GCSE - Sentence Structure and Commas</label>
+                </value>
+                <value>
+                    <fullName>GCSE - 19th Century Texts</fullName>
+                    <default>false</default>
+                    <label>GCSE - 19th Century Texts</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Analysing Sensory Language</fullName>
+                    <default>false</default>
+                    <label>GCSE - Analysing Sensory Language</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Writing with Sensory Language</fullName>
+                    <default>false</default>
+                    <label>GCSE - Writing with Sensory Language</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Repetition</fullName>
+                    <default>false</default>
+                    <label>GCSE - Repetition</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Structure Analysis</fullName>
+                    <default>false</default>
+                    <label>GCSE - Structure Analysis</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Figurative Language</fullName>
+                    <default>false</default>
+                    <label>GCSE - Figurative Language</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Evaluation</fullName>
+                    <default>false</default>
+                    <label>GCSE - Evaluation</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Setting</fullName>
+                    <default>false</default>
+                    <label>GCSE - Setting</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Character</fullName>
+                    <default>false</default>
+                    <label>GCSE - Character</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Structuring a Story</fullName>
+                    <default>false</default>
+                    <label>GCSE - Structuring a Story</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Summary</fullName>
+                    <default>false</default>
+                    <label>GCSE - Summary</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Writer&apos;s attitude</fullName>
+                    <default>false</default>
+                    <label>GCSE - Writer&apos;s attitude</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Comparison</fullName>
+                    <default>false</default>
+                    <label>GCSE - Comparison</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Planning an argument</fullName>
+                    <default>false</default>
+                    <label>GCSE - Planning an argument</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Writing persuasively</fullName>
+                    <default>false</default>
+                    <label>GCSE - Writing persuasively</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Exam Practice – Paper 1, Part A</fullName>
+                    <default>false</default>
+                    <label>GCSE - Exam Practice – Paper 1, Part A</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Exam Practice – Paper 1, Part B</fullName>
+                    <default>false</default>
+                    <label>GCSE - Exam Practice – Paper 1, Part B</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Exam Practice – Paper 2, Part A</fullName>
+                    <default>false</default>
+                    <label>GCSE - Exam Practice – Paper 2, Part A</label>
+                </value>
+                <value>
+                    <fullName>GCSE - Exam Practice – Paper 2, Part B</fullName>
+                    <default>false</default>
+                    <label>GCSE - Exam Practice – Paper 2, Part B</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Retrieval and Inference</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Retrieval and Inference</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Inference</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Inference</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - SPLAT – Part 1</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - SPLAT – Part 1</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - SPLAT – Part 2</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - SPLAT – Part 2</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Sentence Types</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Sentence Types</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Sentence Structure and Commas</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Sentence Structure and Commas</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Sensory Language</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Sensory Language</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Repetition</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Repetition</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Speaking, Listening and Communicating 1</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Speaking, Listening and Communicating 1</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Speaking, Listening and Communicating 2</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Speaking, Listening and Communicating 2</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Speaking, Listening and Communicating 3</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Speaking, Listening and Communicating 3</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Speaking, Listening and Communicating 4</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Speaking, Listening and Communicating 4</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Speaking, Listening and Communicating 5</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Speaking, Listening and Communicating 5</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Speaking, Listening and Communicating 6</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Speaking, Listening and Communicating 6</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Organisational Features</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Organisational Features</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Planning an argument</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Planning an argument</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Persuasive Writing</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Persuasive Writing</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Facts and Opinions</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Facts and Opinions</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Summarising</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Summarising</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Comparing Texts</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Comparing Texts</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Reading Assessment 1</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Reading Assessment 1</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Writing Assessment 1</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Writing Assessment 1</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Reading Assessment 2</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Reading Assessment 2</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Writing Assessment 2</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Writing Assessment 2</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Reading Assessment 3</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Reading Assessment 3</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Writing Assessment 3</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Writing Assessment 3</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Reading Assessment 4</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Reading Assessment 4</label>
+                </value>
+                <value>
+                    <fullName>Functional Skills L1/L2 - Writing Assessment 4</fullName>
+                    <default>false</default>
+                    <label>Functional Skills L1/L2 - Writing Assessment 4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>GetFurther_Session__c</fullName>
         <externalId>false</externalId>
         <label>Session</label>
@@ -289,7 +568,7 @@
     <fields>
         <fullName>Topic__c</fullName>
         <externalId>false</externalId>
-        <label>Topic</label>
+        <label>Maths Topic</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>

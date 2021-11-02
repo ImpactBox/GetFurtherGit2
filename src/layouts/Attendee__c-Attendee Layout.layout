@@ -27,6 +27,10 @@
                 <behavior>Edit</behavior>
                 <field>Topic__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>EnglishTopic__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -121,6 +121,8 @@
         <members>IB_EditableListSetting.Registers_To_Complete</members>
         <members>IB_RegisterField.Topics_Skills_to_practise</members>
         <members>IB_RegisterField.Demonstrate_academic_progress</members>
+        <members>IB_RegisterField.English_Topic</members>
+        <members>IB_RegisterField.Topic</members>
         <members>IBRegisterSetting.Register</members>
     </types>
     <types>
