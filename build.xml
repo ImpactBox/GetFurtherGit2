@@ -27,7 +27,8 @@
     </target>
 
     <target name="validate">
-     <sf:deploy username="${prod.username}" password="${prod.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="/src" rollbackOnError="true" checkOnly="true" pollWaitMillis="10000" testLevel="RunLocalTests">        
+     <sf:deploy username="${prod.username}" password="${prod.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="/src" rollbackOnError="true" checkOnly="true" pollWaitMillis="10000" testLevel="RunSpecifiedTests">        
+     <runTest>UTIL_HTMLOutput_TEST</runTest>
      </sf:deploy>
    </target>
 
