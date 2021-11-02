@@ -83,11 +83,11 @@
     <name>NetworkBranding</name>
   </types>
     <types>
-        <members>unfiled$public</members>
-        <members>unfiled$public/Register_Session_Reminder_Tutors_1634550726305</members>
-       <members>unfiled$public/Session_Register_Reminder_Email_Tutors_1634551435993</members>
-        <members>unfiled$public/Session_Register_Reminder_Email_24_Hours_1635706689115</members>
-        <members>unfiled$public/Welcome_to_Get_Further</members>
+        <members>Tutors</members>
+        <members>Tutors/Register_Session_Reminder_Tutors_1634550726305</members>
+       <members>Tutors/Session_Register_Reminder_Email_Tutors_1634551435993</members>
+        <members>Tutors/Session_Register_Reminder_Email_24_Hours_1635706689115</members>
+        <members>Tutors/Welcome_to_Get_Further</members>
         <name>EmailTemplate</name>
     </types>
    <types>

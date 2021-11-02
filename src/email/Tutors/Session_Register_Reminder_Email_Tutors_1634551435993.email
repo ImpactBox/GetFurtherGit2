@@ -389,11 +389,11 @@
 															<br />
 															Hi&nbsp;{{{GetFurther_Session__c.SessionTutorName__c}}},</p>
 
-															<p style="text-align: center;"><span style="">This is a reminder that you need to complete your register for yesterday's session, {{{GetFurther_Session__c.CollegeCampusName__c}}}.</span><br />
+															<p style="text-align: center;"><span style="">This is a friendly reminder to complete your register for your upcoming session today, at&nbsp;{{{GetFurther_Session__c.CollegeCampusName__c}}},&nbsp;<br />
+															{{{GetFurther_Session__c.Session_Date__c}}}.</span><br />
 															&nbsp;</p>
 
 															<p style="text-align: center;"><span style="">To complete your register, please click here: {{{GetFurther_Session__c.SessionLink__c}}}.<br />
-															<br />
 															Please note that you will need to log in to the Get Further Tutor Portal using your credentials to access&nbsp;your register&nbsp;page.</span></p>
 
 															<p style="text-align: center;"><span style="">Many thanks,<br />

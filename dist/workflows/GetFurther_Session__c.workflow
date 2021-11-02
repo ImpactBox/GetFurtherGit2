@@ -9,7 +9,7 @@
             <type>contactLookup</type>
         </recipients>
         <senderType>DefaultWorkflowUser</senderType>
-        <template>unfiled$public/Session_Register_Reminder_Email_Tutors_1634551435993</template>
+        <template>Tutors/Session_Register_Reminder_Email_Tutors_1634551435993</template>
     </alerts>
     <alerts>
         <fullName>Tutor_Register_Reminder_Email_Alert_24_Hours</fullName>
@@ -20,6 +20,6 @@
             <type>contactLookup</type>
         </recipients>
         <senderType>DefaultWorkflowUser</senderType>
-        <template>unfiled$public/Session_Register_Reminder_Email_24_Hours_1635706689115</template>
+        <template>Tutors/Session_Register_Reminder_Email_24_Hours_1635706689115</template>
     </alerts>
 </Workflow>
