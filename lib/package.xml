@@ -127,8 +127,8 @@
     <members>StudentReports/Percentage_Attendance_Per_Student_RvM</members>
     <members>StudentReports/Engagement_Attendances_by_Student_OB8</members>
     <members>StudentReports/Student_Attendance_Past_30_days_Qao</members>
+    <members>StudentReports/Teacher_Report_All_Schools_Past_7_Days_lo0</members>
     </types>
-   
     <types>
         <members>Tutor</members>
         <name>SharingSet</name>
