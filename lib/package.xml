@@ -4,6 +4,7 @@
      <name>Profile</name>
     <members>*</members>
     </types>
+    
     <types> 
         <name>CustomObject</name>
         <members>GetFurther_Session__c</members>
@@ -21,6 +22,7 @@
         <members>GetFurther_Session_Record_Page</members>
         <members>Group_Record_Page</members>
         <members>Account_Record_Page</members>
+        <members>Engagement_Record_Page</members>
     </types>
     <types>
         <members>FooterIcons</members>
@@ -54,9 +56,6 @@
         <name>WorkflowAlert</name>
     </types>    
    
-    <types>
-        <name>EmailTemplate</name>
-    </types>
    <types>
     <name>Layout</name>
     <members>Engagement__c-Engagement Layout</members>
