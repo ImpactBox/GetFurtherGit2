@@ -45,10 +45,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>FormResponseURL__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>SubmissionAcknowledgementSent__c</field>
             </layoutItems>
         </layoutColumns>
@@ -64,6 +60,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Processed__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>FormResponseURL__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
