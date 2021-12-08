@@ -26,6 +26,10 @@
                 <behavior>Readonly</behavior>
                 <field>TutorName__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>OverrideTutor__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

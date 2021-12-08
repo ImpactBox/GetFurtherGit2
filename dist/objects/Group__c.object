@@ -232,6 +232,15 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>OverrideTutor__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Override Tutor</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>SubjectFocus__c</fullName>
         <externalId>false</externalId>
         <label>Subject Focus</label>
@@ -258,6 +267,10 @@
     <label>Tuition Group</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>SubjectFocus__c</columns>
+        <columns>CurriculumLevel__c</columns>
+        <columns>TutorName__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
@@ -269,5 +282,14 @@
     <pluralLabel>Tuition Groups</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Confirm_Tutor_Change</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND (
+ISCHANGED(  LeadTutor__c  ),
+ OverrideTutor__c = FALSE,
+ISBLANK(LeadTutor__c)=FALSE )</errorConditionFormula>
+        <errorMessage>To change the Lead Tutor, you must first tick the &apos;override tutor&apos; checkbox</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

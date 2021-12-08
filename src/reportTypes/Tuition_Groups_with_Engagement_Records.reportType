@@ -75,6 +75,11 @@
             <field>TutorName__c</field>
             <table>Group__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>OverrideTutor__c</field>
+            <table>Group__c</table>
+        </columns>
         <masterLabel>Tuition Groups</masterLabel>
     </sections>
     <sections>
@@ -181,6 +186,36 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>PercentageAttendanceToDate__c</field>
+            <table>Group__c.Engagements__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>TuitionGroupCurriculumSubject__c</field>
+            <table>Group__c.Engagements__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>TuitionGroupFocus__c</field>
+            <table>Group__c.Engagements__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastSessionDate__c</field>
+            <table>Group__c.Engagements__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>InitialDiagnosticsSurveyCompleted__c</field>
+            <table>Group__c.Engagements__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>BaselineQuizResponse__c</field>
+            <table>Group__c.Engagements__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>EngagementStatus__c</field>
             <table>Group__c.Engagements__r</table>
         </columns>
         <masterLabel>Engagements</masterLabel>

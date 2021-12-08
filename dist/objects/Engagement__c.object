@@ -128,11 +128,14 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Engagement_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -154,6 +157,15 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>BaselineQuizResponse__c</fullName>
+        <externalId>false</externalId>
+        <label>Baseline Quiz Response</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
     <fields>
         <fullName>BaselineQuizScore__c</fullName>
         <externalId>false</externalId>
@@ -189,6 +201,25 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EngagementStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(PercentageAttendanceToDate__c &gt; 0.75, &quot;Active Engagement&quot;, 
+
+IF(PercentageAttendanceToDate__c &gt; 0.01, &quot;Passive Engagement&quot;, &quot;Inactive&quot;
+
+
+)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Calculates the Student&apos;s level of engagement based on their attendance % to date (for all sessions where a register has been submitted)</inlineHelpText>
+        <label>Engagement Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
@@ -253,6 +284,24 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>InitialDiagnosticsSurveyCompleted__c</fullName>
+        <externalId>false</externalId>
+        <label>Initial Diagnostics Quiz Completed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>LastSessionDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Session Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>PercentageAttendanceToDate__c</fullName>
@@ -363,6 +412,28 @@
         <type>Summary</type>
     </fields>
     <fields>
+        <fullName>TuitionGroupCurriculumSubject__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Group__r.SubjectFocus__c) &amp; &quot; &quot; &amp; TEXT( Group__r.CurriculumLevel__c )</formula>
+        <label>Tuition Group Curriculum Subject</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TuitionGroupFocus__c</fullName>
+        <externalId>false</externalId>
+        <label>Tuition Group Focus</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Tutor__c</fullName>
         <externalId>false</externalId>
         <formula>Group__r.LeadTutor__r.Contact__r.FirstName &amp; &quot; &quot;&amp;  Group__r.LeadTutor__r.Contact__r.LastName</formula>
@@ -402,6 +473,8 @@
     <label>Engagement</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>LastSessionDate__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>

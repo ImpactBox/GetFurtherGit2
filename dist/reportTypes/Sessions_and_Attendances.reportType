@@ -215,6 +215,11 @@
             <field>Programme__c.Id</field>
             <table>GetFurther_Session__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>ChangeSessionTutor__c</field>
+            <table>GetFurther_Session__c</table>
+        </columns>
         <masterLabel>Sessions</masterLabel>
     </sections>
     <sections>

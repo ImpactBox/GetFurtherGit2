@@ -372,6 +372,11 @@
             <field>TutorName__c</field>
             <table>Programme__c.Tuition_Groups__r</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>OverrideTutor__c</field>
+            <table>Programme__c.Tuition_Groups__r</table>
+        </columns>
         <masterLabel>Tuition Groups</masterLabel>
     </sections>
     <sections>
@@ -568,6 +573,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>AttendancePercentage__c</field>
+            <table>Programme__c.Tuition_Groups__r.Sessions__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>ChangeSessionTutor__c</field>
             <table>Programme__c.Tuition_Groups__r.Sessions__r</table>
         </columns>
         <masterLabel>Sessions</masterLabel>

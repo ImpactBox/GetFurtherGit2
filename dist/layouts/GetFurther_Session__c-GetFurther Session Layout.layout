@@ -28,24 +28,12 @@
                 <field>SessionTutor__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>SessionToday__c</field>
+                <behavior>Edit</behavior>
+                <field>ChangeSessionTutor__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>SessionLink__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>SessionYesterday__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>TotalStudents__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>AttendancePercentage__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -67,7 +55,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>TutorEmailPopulated__c</field>
+                <field>AttendancePercentage__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>

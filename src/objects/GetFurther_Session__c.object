@@ -158,7 +158,7 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>Any_Further_Comments__c</fullName>
         <description>If you have any further comments you would like to make, please leave them here:</description>
@@ -179,6 +179,15 @@
         <scale>0</scale>
         <trackTrending>false</trackTrending>
         <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ChangeSessionTutor__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>You must tick this box if changing the session tutor from a previous value</inlineHelpText>
+        <label>Change Session Tutor</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>CollegeCampusName__c</fullName>
@@ -521,17 +530,16 @@
     </fields>
     <fields>
         <fullName>TuitionGroup__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
         <externalId>false</externalId>
         <inlineHelpText>The tuition group for which this session is being run</inlineHelpText>
         <label>Tuition Group</label>
         <referenceTo>Group__c</referenceTo>
         <relationshipLabel>Sessions</relationshipLabel>
         <relationshipName>Sessions</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <required>true</required>
         <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>TutorEmailPopulated__c</fullName>
@@ -1083,6 +1091,15 @@
     </nameField>
     <pluralLabel>Sessions</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Change_session_tutor_not_ticked</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND (
+ISCHANGED( SessionTutor__c ),
+ ChangeSessionTutor__c = FALSE,
+ ISBLANK(SessionTutor__c)=FALSE )</errorConditionFormula>
+        <errorMessage>If you wish to change the session tutor, you must tick the &apos;Change Session Tutor&apos; checkbox</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

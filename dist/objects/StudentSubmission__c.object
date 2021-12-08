@@ -186,6 +186,14 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>CollegeName__c</fullName>
+        <externalId>false</externalId>
+        <label>College Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>CommentsorQuestions__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>Please let us know if you have any comments or questions regarding your participation in the Get Further programme:</inlineHelpText>
@@ -509,6 +517,14 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FormResponseURL__c</fullName>
+        <externalId>false</externalId>
+        <label>Form Response URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
     </fields>
     <fields>
         <fullName>Free_school_college_meals__c</fullName>
@@ -865,6 +881,14 @@ I believe I will receive an excellent grade in this maths course.</inlineHelpTex
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
+        <fullName>NoSurvey__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>No Survey</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>One_of_my_best_subjects__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>To what extent do you agree with the following statements? [I believe that English is one of my best subjects.] [I believe that mathematics is one of my best subjects.]</inlineHelpText>
@@ -1080,6 +1104,14 @@ I believe I will receive an excellent grade in this maths course.</inlineHelpTex
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>SubmissionAcknowledgementSent__c</fullName>
+        <externalId>false</externalId>
+        <label>Submission Acknowledgement Sent</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Think_Ill_do_well__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>Considering the difficulty of this course, and my skills, I think I will do well in this course.</inlineHelpText>
@@ -1166,6 +1198,9 @@ I believe I will receive an excellent grade in this maths course.</inlineHelpTex
     <label>Student Submission</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>

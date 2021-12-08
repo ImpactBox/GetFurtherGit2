@@ -418,6 +418,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.npsp__Undeliverable_Address__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Attendee__c.AttendeeName__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2012,8 +2017,18 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.npsp__Undeliverable_Address__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.npsp__is_Address_Override__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Engagement__c.BaselineQuizResponse__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2032,6 +2047,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Engagement__c.EngagementStatus__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Engagement__c.ExamBoard__c</field>
         <readable>true</readable>
@@ -2039,6 +2059,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Engagement__c.Group__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Engagement__c.InitialDiagnosticsSurveyCompleted__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Engagement__c.LastSessionDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2078,6 +2108,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Engagement__c.TuitionGroupCurriculumSubject__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Engagement__c.TuitionGroupFocus__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Engagement__c.Tutor__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2094,6 +2134,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>GetFurther_Session__c.AttendancePercentage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>GetFurther_Session__c.ChangeSessionTutor__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2259,6 +2304,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Group__c.LeadTutor__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Group__c.OverrideTutor__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2508,6 +2558,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>StudentSubmission__c.CollegeName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>StudentSubmission__c.CommentsorQuestions__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2584,6 +2639,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>StudentSubmission__c.FirstName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>StudentSubmission__c.FormResponseURL__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2708,6 +2768,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>StudentSubmission__c.NoSurvey__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>StudentSubmission__c.One_of_my_best_subjects__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2789,6 +2854,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>StudentSubmission__c.StudySupporterRelationship__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>StudentSubmission__c.SubmissionAcknowledgementSent__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2928,6 +2998,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Survey__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Survey__c.Understand_basic_concepts__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2967,6 +3042,9 @@
     <layoutAssignments>
         <layout>Contact-Tutors Layout</layout>
         <recordType>Contact.Tutor_Record_Type</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Engagement__c-Engagement Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>GetFurther_Session__c-GetFurther Session Layout</layout>

@@ -405,6 +405,30 @@ I believe I will receive an excellent grade in this maths course.</inlineHelpTex
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Baseline</fullName>
+                    <default>false</default>
+                    <label>Baseline</label>
+                </value>
+                <value>
+                    <fullName>Endline</fullName>
+                    <default>false</default>
+                    <label>Endline</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Understand_basic_concepts__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>I&apos;m confident I can understand the basic concepts taught in this course.</inlineHelpText>
@@ -445,9 +469,9 @@ I believe I will receive an excellent grade in this maths course.</inlineHelpTex
         <externalId>false</externalId>
         <inlineHelpText>To what extent do you agree with the following statements? [I worry that I will get poor grades in English.] [I worry that I will get poor grades in mathematics.]</inlineHelpText>
         <label>Worry about poor grades</label>
-        <precision>18</precision>
+        <precision>2</precision>
         <required>false</required>
-        <scale>2</scale>
+        <scale>0</scale>
         <trackTrending>false</trackTrending>
         <type>Number</type>
         <unique>false</unique>
@@ -469,6 +493,17 @@ I believe I will receive an excellent grade in this maths course.</inlineHelpTex
         <active>true</active>
         <description>To record initial student survey data</description>
         <label>Student Survey</label>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Baseline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Endline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>

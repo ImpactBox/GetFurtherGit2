@@ -12462,6 +12462,16 @@ npo02__Household__r.npo02__TotalOppAmount__c)</formula>
         <type>Currency</type>
     </fields>
     <fields>
+        <fullName>npsp__Undeliverable_Address__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates the address is undeliverable.</description>
+        <externalId>false</externalId>
+        <label>Undeliverable Mailing Address</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>npsp__is_Address_Override__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
